@@ -1,0 +1,11 @@
+{
+    "link": {
+        "native": {
+            "cc" : "gcc",
+            "cc-flags": "-fsanitize=address"
+        }
+    },
+    "import": [
+        "myfreess/native/sys"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "link": {
+        "native": {
+            "cc" : "gcc",
+            "stub-cc-flags": "-fsanitize=address -static-libasan"
+        }
+    },
+    "native-stub": [
+        "stub.c"
+    ],
+    "supported-targets": [
+        "native"
+    ]
+}
