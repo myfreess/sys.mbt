@@ -1,0 +1,8 @@
+{
+    "native-stub": [
+        "stub.c"
+    ],
+    "supported-targets": [
+        "native"
+    ]
+}
