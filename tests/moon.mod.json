@@ -1,0 +1,8 @@
+{
+  "name": "myfreess/native_test",
+  "deps": {
+    "myfreess/native": {
+      "path": ".."
+    }
+  }
+}

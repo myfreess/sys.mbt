@@ -1,0 +1,13 @@
+{
+    "native-stub": [
+        "stub.c"
+    ],
+    "link" : {
+        "native" : {
+            "cc-flags": "-c"
+        }
+    },
+    "supported-targets": [
+        "native"
+    ]
+}
