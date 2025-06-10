@@ -1,0 +1,17 @@
+{
+    "import": [
+        "myfreess/sys/errno/win32",
+        "myfreess/sys/errno/linux"
+    ],
+    "link": {
+        "native": {
+            "cc-flags": ""
+        }
+    },
+    "native-stub": [
+        "stub.c"
+    ],
+    "supported-targets": [
+        "native"
+    ]
+}

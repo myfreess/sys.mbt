@@ -1,0 +1,5888 @@
+///|
+pub const DNS_ERROR_ADDRESS_REQUIRED : Int = 9573
+
+///|
+pub const DNS_ERROR_ALIAS_LOOP : Int = 9722
+
+///|
+pub const DNS_ERROR_AUTOZONE_ALREADY_EXISTS : Int = 9610
+
+///|
+pub const DNS_ERROR_AXFR : Int = 9752
+
+///|
+pub const DNS_ERROR_BACKGROUND_LOADING : Int = 9568
+
+///|
+pub const DNS_ERROR_BAD_KEYMASTER : Int = 9122
+
+///|
+pub const DNS_ERROR_BAD_PACKET : Int = 9502
+
+///|
+pub const DNS_ERROR_CANNOT_FIND_ROOT_HINTS : Int = 9564
+
+///|
+pub const DNS_ERROR_CLIENT_SUBNET_ALREADY_EXISTS : Int = 9977
+
+///|
+pub const DNS_ERROR_CLIENT_SUBNET_DOES_NOT_EXIST : Int = 9976
+
+///|
+pub const DNS_ERROR_CLIENT_SUBNET_IS_ACCESSED : Int = 9975
+
+///|
+pub const DNS_ERROR_CNAME_COLLISION : Int = 9709
+
+///|
+pub const DNS_ERROR_CNAME_LOOP : Int = 9707
+
+///|
+pub const DNS_ERROR_DATAFILE_OPEN_FAILURE : Int = 9653
+
+///|
+pub const DNS_ERROR_DATAFILE_PARSING : Int = 9655
+
+///|
+pub const DNS_ERROR_DEFAULT_SCOPE : Int = 9960
+
+///|
+pub const DNS_ERROR_DEFAULT_VIRTUALIZATION_INSTANCE : Int = 9925
+
+///|
+pub const DNS_ERROR_DEFAULT_ZONESCOPE : Int = 9953
+
+///|
+pub const DNS_ERROR_DELEGATION_REQUIRED : Int = 9571
+
+///|
+pub const DNS_ERROR_DNAME_COLLISION : Int = 9721
+
+///|
+pub const DNS_ERROR_DNSSEC_IS_DISABLED : Int = 9125
+
+///|
+pub const DNS_ERROR_DP_ALREADY_ENLISTED : Int = 9904
+
+///|
+pub const DNS_ERROR_DP_ALREADY_EXISTS : Int = 9902
+
+///|
+pub const DNS_ERROR_DP_DOES_NOT_EXIST : Int = 9901
+
+///|
+pub const DNS_ERROR_DP_FSMO_ERROR : Int = 9906
+
+///|
+pub const DNS_ERROR_DP_NOT_AVAILABLE : Int = 9905
+
+///|
+pub const DNS_ERROR_DP_NOT_ENLISTED : Int = 9903
+
+///|
+pub const DNS_ERROR_DS_UNAVAILABLE : Int = 9717
+
+///|
+pub const DNS_ERROR_DS_ZONE_ALREADY_EXISTS : Int = 9718
+
+///|
+pub const DNS_ERROR_DWORD_VALUE_TOO_LARGE : Int = 9567
+
+///|
+pub const DNS_ERROR_DWORD_VALUE_TOO_SMALL : Int = 9566
+
+///|
+pub const DNS_ERROR_FILE_WRITEBACK_FAILED : Int = 9654
+
+///|
+pub const DNS_ERROR_FORWARDER_ALREADY_EXISTS : Int = 9619
+
+///|
+pub const DNS_ERROR_INCONSISTENT_ROOT_HINTS : Int = 9565
+
+///|
+pub const DNS_ERROR_INVAILD_VIRTUALIZATION_INSTANCE_NAME : Int = 9924
+
+///|
+pub const DNS_ERROR_INVALID_CLIENT_SUBNET_NAME : Int = 9984
+
+///|
+pub const DNS_ERROR_INVALID_DATA : Int = 13
+
+///|
+pub const DNS_ERROR_INVALID_DATAFILE_NAME : Int = 9652
+
+///|
+pub const DNS_ERROR_INVALID_INITIAL_ROLLOVER_OFFSET : Int = 9115
+
+///|
+pub const DNS_ERROR_INVALID_IP_ADDRESS : Int = 9552
+
+///|
+pub const DNS_ERROR_INVALID_KEY_SIZE : Int = 9106
+
+///|
+pub const DNS_ERROR_INVALID_NAME : Int = 123
+
+///|
+pub const DNS_ERROR_INVALID_NAME_CHAR : Int = 9560
+
+///|
+pub const DNS_ERROR_INVALID_NSEC3_ITERATION_COUNT : Int = 9124
+
+///|
+pub const DNS_ERROR_INVALID_POLICY_TABLE : Int = 9572
+
+///|
+pub const DNS_ERROR_INVALID_PROPERTY : Int = 9553
+
+///|
+pub const DNS_ERROR_INVALID_ROLLOVER_PERIOD : Int = 9114
+
+///|
+pub const DNS_ERROR_INVALID_SCOPE_NAME : Int = 9958
+
+///|
+pub const DNS_ERROR_INVALID_SCOPE_OPERATION : Int = 9961
+
+///|
+pub const DNS_ERROR_INVALID_SIGNATURE_VALIDITY_PERIOD : Int = 9123
+
+///|
+pub const DNS_ERROR_INVALID_TYPE : Int = 9551
+
+///|
+pub const DNS_ERROR_INVALID_XML : Int = 9126
+
+///|
+pub const DNS_ERROR_INVALID_ZONESCOPE_NAME : Int = 9954
+
+///|
+pub const DNS_ERROR_INVALID_ZONE_OPERATION : Int = 9603
+
+///|
+pub const DNS_ERROR_INVALID_ZONE_TYPE : Int = 9611
+
+///|
+pub const DNS_ERROR_KEYMASTER_REQUIRED : Int = 9101
+
+///|
+pub const DNS_ERROR_KSP_DOES_NOT_SUPPORT_PROTECTION : Int = 9108
+
+///|
+pub const DNS_ERROR_KSP_NOT_ACCESSIBLE : Int = 9112
+
+///|
+pub const DNS_ERROR_LOAD_ZONESCOPE_FAILED : Int = 9956
+
+///|
+pub const DNS_ERROR_NAME_DOES_NOT_EXIST : Int = 9714
+
+///|
+pub const DNS_ERROR_NAME_NOT_IN_ZONE : Int = 9706
+
+///|
+pub const DNS_ERROR_NBSTAT_INIT_FAILED : Int = 9617
+
+///|
+pub const DNS_ERROR_NEED_SECONDARY_ADDRESSES : Int = 9614
+
+///|
+pub const DNS_ERROR_NEED_WINS_SERVERS : Int = 9616
+
+///|
+pub const DNS_ERROR_NODE_CREATION_FAILED : Int = 9703
+
+///|
+pub const DNS_ERROR_NODE_IS_CNAME : Int = 9708
+
+///|
+pub const DNS_ERROR_NODE_IS_DNAME : Int = 9720
+
+///|
+pub const DNS_ERROR_NON_RFC_NAME : Int = 9556
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_ON_ACTIVE_SKD : Int = 9119
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_ON_RODC : Int = 9569
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_ON_ROOT_SERVER : Int = 9562
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_ON_SIGNED_ZONE : Int = 9102
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_ON_UNSIGNED_ZONE : Int = 9121
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_ON_ZSK : Int = 9118
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_UNDER_DELEGATION : Int = 9563
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_UNDER_DNAME : Int = 9570
+
+///|
+pub const DNS_ERROR_NOT_ALLOWED_WITH_ZONESCOPES : Int = 9955
+
+///|
+pub const DNS_ERROR_NOT_ENOUGH_SIGNING_KEY_DESCRIPTORS : Int = 9104
+
+///|
+pub const DNS_ERROR_NOT_UNIQUE : Int = 9555
+
+///|
+pub const DNS_ERROR_NO_BOOTFILE_IF_DS_ZONE : Int = 9719
+
+///|
+pub const DNS_ERROR_NO_CREATE_CACHE_DATA : Int = 9713
+
+///|
+pub const DNS_ERROR_NO_DNS_SERVERS : Int = 9852
+
+///|
+pub const DNS_ERROR_NO_MEMORY : Int = 14
+
+///|
+pub const DNS_ERROR_NO_PACKET : Int = 9503
+
+///|
+pub const DNS_ERROR_NO_TCPIP : Int = 9851
+
+///|
+pub const DNS_ERROR_NO_VALID_TRUST_ANCHORS : Int = 9127
+
+///|
+pub const DNS_ERROR_NO_ZONE_INFO : Int = 9602
+
+///|
+pub const DNS_ERROR_NSEC3_INCOMPATIBLE_WITH_RSA_SHA1 : Int = 9103
+
+///|
+pub const DNS_ERROR_NSEC3_NAME_COLLISION : Int = 9129
+
+///|
+pub const DNS_ERROR_NSEC_INCOMPATIBLE_WITH_NSEC3_RSA_SHA1 : Int = 9130
+
+///|
+pub const DNS_ERROR_NUMERIC_NAME : Int = 9561
+
+///|
+pub const DNS_ERROR_POLICY_ALREADY_EXISTS : Int = 9971
+
+///|
+pub const DNS_ERROR_POLICY_DOES_NOT_EXIST : Int = 9972
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA : Int = 9973
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA_CLIENT_SUBNET : Int = 9990
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA_FQDN : Int = 9994
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA_INTERFACE : Int = 9993
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA_NETWORK_PROTOCOL : Int = 9992
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA_QUERY_TYPE : Int = 9995
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA_TIME_OF_DAY : Int = 9996
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_CRITERIA_TRANSPORT_PROTOCOL : Int = 9991
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_NAME : Int = 9982
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_SETTINGS : Int = 9974
+
+///|
+pub const DNS_ERROR_POLICY_INVALID_WEIGHT : Int = 9981
+
+///|
+pub const DNS_ERROR_POLICY_LOCKED : Int = 9980
+
+///|
+pub const DNS_ERROR_POLICY_MISSING_CRITERIA : Int = 9983
+
+///|
+pub const DNS_ERROR_POLICY_PROCESSING_ORDER_INVALID : Int = 9985
+
+///|
+pub const DNS_ERROR_POLICY_SCOPE_MISSING : Int = 9986
+
+///|
+pub const DNS_ERROR_POLICY_SCOPE_NOT_ALLOWED : Int = 9987
+
+///|
+pub const DNS_ERROR_PRIMARY_REQUIRES_DATAFILE : Int = 9651
+
+///|
+pub const DNS_ERROR_RCODE : Int = 9504
+
+///|
+pub const DNS_ERROR_RCODE_BADKEY : Int = 9017
+
+///|
+pub const DNS_ERROR_RCODE_BADSIG : Int = 9016
+
+///|
+pub const DNS_ERROR_RCODE_BADTIME : Int = 9018
+
+///|
+pub const DNS_ERROR_RCODE_FORMAT_ERROR : Int = 9001
+
+///|
+pub const DNS_ERROR_RCODE_NAME_ERROR : Int = 9003
+
+///|
+pub const DNS_ERROR_RCODE_NOTAUTH : Int = 9009
+
+///|
+pub const DNS_ERROR_RCODE_NOTZONE : Int = 9010
+
+///|
+pub const DNS_ERROR_RCODE_NOT_IMPLEMENTED : Int = 9004
+
+///|
+pub const DNS_ERROR_RCODE_NXRRSET : Int = 9008
+
+///|
+pub const DNS_ERROR_RCODE_REFUSED : Int = 9005
+
+///|
+pub const DNS_ERROR_RCODE_SERVER_FAILURE : Int = 9002
+
+///|
+pub const DNS_ERROR_RCODE_YXDOMAIN : Int = 9006
+
+///|
+pub const DNS_ERROR_RCODE_YXRRSET : Int = 9007
+
+///|
+pub const DNS_ERROR_RECORD_ALREADY_EXISTS : Int = 9711
+
+///|
+pub const DNS_ERROR_RECORD_DOES_NOT_EXIST : Int = 9701
+
+///|
+pub const DNS_ERROR_RECORD_FORMAT : Int = 9702
+
+///|
+pub const DNS_ERROR_RECORD_ONLY_AT_ZONE_ROOT : Int = 9710
+
+///|
+pub const DNS_ERROR_RECORD_TIMED_OUT : Int = 9705
+
+///|
+pub const DNS_ERROR_ROLLOVER_ALREADY_QUEUED : Int = 9120
+
+///|
+pub const DNS_ERROR_ROLLOVER_IN_PROGRESS : Int = 9116
+
+///|
+pub const DNS_ERROR_ROLLOVER_NOT_POKEABLE : Int = 9128
+
+///|
+pub const DNS_ERROR_RRL_INVALID_IPV4_PREFIX : Int = 9913
+
+///|
+pub const DNS_ERROR_RRL_INVALID_IPV6_PREFIX : Int = 9914
+
+///|
+pub const DNS_ERROR_RRL_INVALID_LEAK_RATE : Int = 9916
+
+///|
+pub const DNS_ERROR_RRL_INVALID_TC_RATE : Int = 9915
+
+///|
+pub const DNS_ERROR_RRL_INVALID_WINDOW_SIZE : Int = 9912
+
+///|
+pub const DNS_ERROR_RRL_LEAK_RATE_LESSTHAN_TC_RATE : Int = 9917
+
+///|
+pub const DNS_ERROR_RRL_NOT_ENABLED : Int = 9911
+
+///|
+pub const DNS_ERROR_SCOPE_ALREADY_EXISTS : Int = 9963
+
+///|
+pub const DNS_ERROR_SCOPE_DOES_NOT_EXIST : Int = 9959
+
+///|
+pub const DNS_ERROR_SCOPE_LOCKED : Int = 9962
+
+///|
+pub const DNS_ERROR_SECONDARY_DATA : Int = 9712
+
+///|
+pub const DNS_ERROR_SECONDARY_REQUIRES_MASTER_IP : Int = 9612
+
+///|
+pub const DNS_ERROR_SERVERSCOPE_IS_REFERENCED : Int = 9988
+
+///|
+pub const DNS_ERROR_SIGNING_KEY_NOT_ACCESSIBLE : Int = 9107
+
+///|
+pub const DNS_ERROR_SOA_DELETE_INVALID : Int = 9618
+
+///|
+pub const DNS_ERROR_STANDBY_KEY_NOT_PRESENT : Int = 9117
+
+///|
+pub const DNS_ERROR_SUBNET_ALREADY_EXISTS : Int = 9979
+
+///|
+pub const DNS_ERROR_SUBNET_DOES_NOT_EXIST : Int = 9978
+
+///|
+pub const DNS_ERROR_TOO_MANY_SKDS : Int = 9113
+
+///|
+pub const DNS_ERROR_TRY_AGAIN_LATER : Int = 9554
+
+///|
+pub const DNS_ERROR_UNEXPECTED_CNG_ERROR : Int = 9110
+
+///|
+pub const DNS_ERROR_UNEXPECTED_DATA_PROTECTION_ERROR : Int = 9109
+
+///|
+pub const DNS_ERROR_UNKNOWN_RECORD_TYPE : Int = 9704
+
+///|
+pub const DNS_ERROR_UNKNOWN_SIGNING_PARAMETER_VERSION : Int = 9111
+
+///|
+pub const DNS_ERROR_UNSECURE_PACKET : Int = 9505
+
+///|
+pub const DNS_ERROR_UNSUPPORTED_ALGORITHM : Int = 9105
+
+///|
+pub const DNS_ERROR_VIRTUALIZATION_INSTANCE_ALREADY_EXISTS : Int = 9921
+
+///|
+pub const DNS_ERROR_VIRTUALIZATION_INSTANCE_DOES_NOT_EXIST : Int = 9922
+
+///|
+pub const DNS_ERROR_VIRTUALIZATION_TREE_LOCKED : Int = 9923
+
+///|
+pub const DNS_ERROR_WINS_INIT_FAILED : Int = 9615
+
+///|
+pub const DNS_ERROR_ZONESCOPE_ALREADY_EXISTS : Int = 9951
+
+///|
+pub const DNS_ERROR_ZONESCOPE_DOES_NOT_EXIST : Int = 9952
+
+///|
+pub const DNS_ERROR_ZONESCOPE_FILE_WRITEBACK_FAILED : Int = 9957
+
+///|
+pub const DNS_ERROR_ZONESCOPE_IS_REFERENCED : Int = 9989
+
+///|
+pub const DNS_ERROR_ZONE_ALREADY_EXISTS : Int = 9609
+
+///|
+pub const DNS_ERROR_ZONE_CONFIGURATION_ERROR : Int = 9604
+
+///|
+pub const DNS_ERROR_ZONE_CREATION_FAILED : Int = 9608
+
+///|
+pub const DNS_ERROR_ZONE_DOES_NOT_EXIST : Int = 9601
+
+///|
+pub const DNS_ERROR_ZONE_HAS_NO_NS_RECORDS : Int = 9606
+
+///|
+pub const DNS_ERROR_ZONE_HAS_NO_SOA_RECORD : Int = 9605
+
+///|
+pub const DNS_ERROR_ZONE_IS_SHUTDOWN : Int = 9621
+
+///|
+pub const DNS_ERROR_ZONE_LOCKED : Int = 9607
+
+///|
+pub const DNS_ERROR_ZONE_LOCKED_FOR_SIGNING : Int = 9622
+
+///|
+pub const DNS_ERROR_ZONE_NOT_SECONDARY : Int = 9613
+
+///|
+pub const DNS_ERROR_ZONE_REQUIRES_MASTER_IP : Int = 9620
+
+///|
+pub const ERROR_ABANDONED_WAIT_0 : Int = 735
+
+///|
+pub const ERROR_ABANDONED_WAIT_63 : Int = 736
+
+///|
+pub const ERROR_ABANDON_HIBERFILE : Int = 787
+
+///|
+pub const ERROR_ABIOS_ERROR : Int = 538
+
+///|
+pub const ERROR_ACCESS_AUDIT_BY_POLICY : Int = 785
+
+///|
+pub const ERROR_ACCESS_DENIED : Int = 5
+
+///|
+pub const ERROR_ACCESS_DENIED_APPDATA : Int = 502
+
+///|
+pub const ERROR_ACCESS_DISABLED_BY_POLICY : Int = 1260
+
+///|
+pub const ERROR_ACCESS_DISABLED_NO_SAFER_UI_BY_POLICY : Int = 786
+
+///|
+pub const ERROR_ACCESS_DISABLED_WEBBLADE : Int = 1277
+
+///|
+pub const ERROR_ACCESS_DISABLED_WEBBLADE_TAMPER : Int = 1278
+
+///|
+pub const ERROR_ACCOUNT_DISABLED : Int = 1331
+
+///|
+pub const ERROR_ACCOUNT_EXPIRED : Int = 1793
+
+///|
+pub const ERROR_ACCOUNT_LOCKED_OUT : Int = 1909
+
+///|
+pub const ERROR_ACCOUNT_RESTRICTION : Int = 1327
+
+///|
+pub const ERROR_ACPI_ERROR : Int = 669
+
+///|
+pub const ERROR_ACTIVE_CONNECTIONS : Int = 2402
+
+///|
+pub const ERROR_ADAP_HDW_ERR : Int = 57
+
+///|
+pub const ERROR_ADDRESS_ALREADY_ASSOCIATED : Int = 1227
+
+///|
+pub const ERROR_ADDRESS_NOT_ASSOCIATED : Int = 1228
+
+///|
+pub const ERROR_ALERTED : Int = 739
+
+///|
+pub const ERROR_ALIAS_EXISTS : Int = 1379
+
+///|
+pub const ERROR_ALLOCATE_BUCKET : Int = 602
+
+///|
+pub const ERROR_ALLOTTED_SPACE_EXCEEDED : Int = 1344
+
+///|
+pub const ERROR_ALL_USER_TRUST_QUOTA_EXCEEDED : Int = 1933
+
+///|
+pub const ERROR_ALREADY_ASSIGNED : Int = 85
+
+///|
+pub const ERROR_ALREADY_EXISTS : Int = 183
+
+///|
+pub const ERROR_ALREADY_FIBER : Int = 1280
+
+///|
+pub const ERROR_ALREADY_HAS_STREAM_ID : Int = 4444
+
+///|
+pub const ERROR_ALREADY_INITIALIZED : Int = 1247
+
+///|
+pub const ERROR_ALREADY_REGISTERED : Int = 1242
+
+///|
+pub const ERROR_ALREADY_RUNNING_LKG : Int = 1074
+
+///|
+pub const ERROR_ALREADY_THREAD : Int = 1281
+
+///|
+pub const ERROR_ALREADY_WAITING : Int = 1904
+
+///|
+pub const ERROR_ALREADY_WIN32 : Int = 719
+
+///|
+pub const ERROR_API_UNAVAILABLE : Int = 15841
+
+///|
+pub const ERROR_APPCONTAINER_REQUIRED : Int = 4251
+
+///|
+pub const ERROR_APPEXEC_APP_COMPAT_BLOCK : Int = 3068
+
+///|
+pub const ERROR_APPEXEC_CALLER_WAIT_TIMEOUT : Int = 3069
+
+///|
+pub const ERROR_APPEXEC_CALLER_WAIT_TIMEOUT_LICENSING : Int = 3071
+
+///|
+pub const ERROR_APPEXEC_CALLER_WAIT_TIMEOUT_RESOURCES : Int = 3072
+
+///|
+pub const ERROR_APPEXEC_CALLER_WAIT_TIMEOUT_TERMINATION : Int = 3070
+
+///|
+pub const ERROR_APPEXEC_CONDITION_NOT_SATISFIED : Int = 3060
+
+///|
+pub const ERROR_APPEXEC_HANDLE_INVALIDATED : Int = 3061
+
+///|
+pub const ERROR_APPEXEC_HOST_ID_MISMATCH : Int = 3066
+
+///|
+pub const ERROR_APPEXEC_INVALID_HOST_GENERATION : Int = 3062
+
+///|
+pub const ERROR_APPEXEC_INVALID_HOST_STATE : Int = 3064
+
+///|
+pub const ERROR_APPEXEC_NO_DONOR : Int = 3065
+
+///|
+pub const ERROR_APPEXEC_UNEXPECTED_PROCESS_REGISTRATION : Int = 3063
+
+///|
+pub const ERROR_APPEXEC_UNKNOWN_USER : Int = 3067
+
+///|
+pub const ERROR_APPHELP_BLOCK : Int = 1259
+
+///|
+pub const ERROR_APPX_FILE_NOT_ENCRYPTED : Int = 409
+
+///|
+pub const ERROR_APP_HANG : Int = 1298
+
+///|
+pub const ERROR_APP_INIT_FAILURE : Int = 575
+
+///|
+pub const ERROR_APP_WRONG_OS : Int = 1151
+
+///|
+pub const ERROR_ARBITRATION_UNHANDLED : Int = 723
+
+///|
+pub const ERROR_ARENA_TRASHED : Int = 7
+
+///|
+pub const ERROR_ARITHMETIC_OVERFLOW : Int = 534
+
+///|
+pub const ERROR_ASSERTION_FAILURE : Int = 668
+
+///|
+pub const ERROR_ATOMIC_LOCKS_NOT_SUPPORTED : Int = 174
+
+///|
+pub const ERROR_AUDIT_FAILED : Int = 606
+
+///|
+pub const ERROR_AUTHENTICATION_FIREWALL_FAILED : Int = 1935
+
+///|
+pub const ERROR_AUTHIP_FAILURE : Int = 1469
+
+///|
+pub const ERROR_AUTODATASEG_EXCEEDS_64k : Int = 199
+
+///|
+pub const ERROR_BACKUP_CONTROLLER : Int = 586
+
+///|
+pub const ERROR_BADDB : Int = 1009
+
+///|
+pub const ERROR_BADKEY : Int = 1010
+
+///|
+pub const ERROR_BADSTARTPOSITION : Int = 778
+
+///|
+pub const ERROR_BAD_ACCESSOR_FLAGS : Int = 773
+
+///|
+pub const ERROR_BAD_ARGUMENTS : Int = 160
+
+///|
+pub const ERROR_BAD_COMMAND : Int = 22
+
+///|
+pub const ERROR_BAD_COMPRESSION_BUFFER : Int = 605
+
+///|
+pub const ERROR_BAD_CONFIGURATION : Int = 1610
+
+///|
+pub const ERROR_BAD_CURRENT_DIRECTORY : Int = 703
+
+///|
+pub const ERROR_BAD_DESCRIPTOR_FORMAT : Int = 1361
+
+///|
+pub const ERROR_BAD_DEVICE : Int = 1200
+
+///|
+pub const ERROR_BAD_DEVICE_PATH : Int = 330
+
+///|
+pub const ERROR_BAD_DEV_TYPE : Int = 66
+
+///|
+pub const ERROR_BAD_DLL_ENTRYPOINT : Int = 609
+
+///|
+pub const ERROR_BAD_DRIVER_LEVEL : Int = 119
+
+///|
+pub const ERROR_BAD_ENVIRONMENT : Int = 10
+
+///|
+pub const ERROR_BAD_EXE_FORMAT : Int = 193
+
+///|
+pub const ERROR_BAD_FILE_TYPE : Int = 222
+
+///|
+pub const ERROR_BAD_FORMAT : Int = 11
+
+///|
+pub const ERROR_BAD_FUNCTION_TABLE : Int = 559
+
+///|
+pub const ERROR_BAD_IMPERSONATION_LEVEL : Int = 1346
+
+///|
+pub const ERROR_BAD_INHERITANCE_ACL : Int = 1340
+
+///|
+pub const ERROR_BAD_LENGTH : Int = 24
+
+///|
+pub const ERROR_BAD_LOGON_SESSION_STATE : Int = 1365
+
+///|
+pub const ERROR_BAD_MCFG_TABLE : Int = 791
+
+///|
+pub const ERROR_BAD_NETPATH : Int = 53
+
+///|
+pub const ERROR_BAD_NET_NAME : Int = 67
+
+///|
+pub const ERROR_BAD_NET_RESP : Int = 58
+
+///|
+pub const ERROR_BAD_PATHNAME : Int = 161
+
+///|
+pub const ERROR_BAD_PIPE : Int = 230
+
+///|
+pub const ERROR_BAD_PROFILE : Int = 1206
+
+///|
+pub const ERROR_BAD_PROVIDER : Int = 1204
+
+///|
+pub const ERROR_BAD_QUERY_SYNTAX : Int = 1615
+
+///|
+pub const ERROR_BAD_RECOVERY_POLICY : Int = 6012
+
+///|
+pub const ERROR_BAD_REM_ADAP : Int = 60
+
+///|
+pub const ERROR_BAD_SERVICE_ENTRYPOINT : Int = 610
+
+///|
+pub const ERROR_BAD_STACK : Int = 543
+
+///|
+pub const ERROR_BAD_THREADID_ADDR : Int = 159
+
+///|
+pub const ERROR_BAD_TOKEN_TYPE : Int = 1349
+
+///|
+pub const ERROR_BAD_UNIT : Int = 20
+
+///|
+pub const ERROR_BAD_USERNAME : Int = 2202
+
+///|
+pub const ERROR_BAD_USER_PROFILE : Int = 1253
+
+///|
+pub const ERROR_BAD_VALIDATION_CLASS : Int = 1348
+
+///|
+pub const ERROR_BEGINNING_OF_MEDIA : Int = 1102
+
+///|
+pub const ERROR_BEYOND_VDL : Int = 1289
+
+///|
+pub const ERROR_BIOS_FAILED_TO_CONNECT_INTERRUPT : Int = 585
+
+///|
+pub const ERROR_BLOCKED_BY_PARENTAL_CONTROLS : Int = 346
+
+///|
+pub const ERROR_BLOCK_SHARED : Int = 514
+
+///|
+pub const ERROR_BLOCK_SOURCE_WEAK_REFERENCE_INVALID : Int = 512
+
+///|
+pub const ERROR_BLOCK_TARGET_WEAK_REFERENCE_INVALID : Int = 513
+
+///|
+pub const ERROR_BLOCK_TOO_MANY_REFERENCES : Int = 347
+
+///|
+pub const ERROR_BLOCK_WEAK_REFERENCE_INVALID : Int = 511
+
+///|
+pub const ERROR_BOOT_ALREADY_ACCEPTED : Int = 1076
+
+///|
+pub const ERROR_BROKEN_PIPE : Int = 109
+
+///|
+pub const ERROR_BUFFER_ALL_ZEROS : Int = 754
+
+///|
+pub const ERROR_BUFFER_OVERFLOW : Int = 111
+
+///|
+pub const ERROR_BUSY : Int = 170
+
+///|
+pub const ERROR_BUSY_DRIVE : Int = 142
+
+///|
+pub const ERROR_BUS_RESET : Int = 1111
+
+///|
+pub const ERROR_BYPASSIO_FLT_NOT_SUPPORTED : Int = 506
+
+///|
+pub const ERROR_CACHE_PAGE_LOCKED : Int = 752
+
+///|
+pub const ERROR_CALLBACK_INVOKE_INLINE : Int = 812
+
+///|
+pub const ERROR_CALLBACK_POP_STACK : Int = 768
+
+///|
+pub const ERROR_CALLBACK_SUPPLIED_INVALID_DATA : Int = 1273
+
+///|
+pub const ERROR_CALL_NOT_IMPLEMENTED : Int = 120
+
+///|
+pub const ERROR_CANCELLED : Int = 1223
+
+///|
+pub const ERROR_CANCEL_VIOLATION : Int = 173
+
+///|
+pub const ERROR_CANNOT_BREAK_OPLOCK : Int = 802
+
+///|
+pub const ERROR_CANNOT_COPY : Int = 266
+
+///|
+pub const ERROR_CANNOT_DETECT_DRIVER_FAILURE : Int = 1080
+
+///|
+pub const ERROR_CANNOT_DETECT_PROCESS_ABORT : Int = 1081
+
+///|
+pub const ERROR_CANNOT_FIND_WND_CLASS : Int = 1407
+
+///|
+pub const ERROR_CANNOT_GRANT_REQUESTED_OPLOCK : Int = 801
+
+///|
+pub const ERROR_CANNOT_IMPERSONATE : Int = 1368
+
+///|
+pub const ERROR_CANNOT_LOAD_REGISTRY_FILE : Int = 589
+
+///|
+pub const ERROR_CANNOT_MAKE : Int = 82
+
+///|
+pub const ERROR_CANNOT_OPEN_PROFILE : Int = 1205
+
+///|
+pub const ERROR_CANTFETCHBACKWARDS : Int = 770
+
+///|
+pub const ERROR_CANTOPEN : Int = 1011
+
+///|
+pub const ERROR_CANTREAD : Int = 1012
+
+///|
+pub const ERROR_CANTSCROLLBACKWARDS : Int = 771
+
+///|
+pub const ERROR_CANTWRITE : Int = 1013
+
+///|
+pub const ERROR_CANT_ACCESS_DOMAIN_INFO : Int = 1351
+
+///|
+pub const ERROR_CANT_ACCESS_FILE : Int = 1920
+
+///|
+pub const ERROR_CANT_CLEAR_ENCRYPTION_FLAG : Int = 432
+
+///|
+pub const ERROR_CANT_DISABLE_MANDATORY : Int = 1310
+
+///|
+pub const ERROR_CANT_ENABLE_DENY_ONLY : Int = 629
+
+///|
+pub const ERROR_CANT_OPEN_ANONYMOUS : Int = 1347
+
+///|
+pub const ERROR_CANT_RESOLVE_FILENAME : Int = 1921
+
+///|
+pub const ERROR_CANT_TERMINATE_SELF : Int = 555
+
+///|
+pub const ERROR_CANT_WAIT : Int = 554
+
+///|
+pub const ERROR_CAN_NOT_COMPLETE : Int = 1003
+
+///|
+pub const ERROR_CAPAUTHZ_CHANGE_TYPE : Int = 451
+
+///|
+pub const ERROR_CAPAUTHZ_DB_CORRUPTED : Int = 455
+
+///|
+pub const ERROR_CAPAUTHZ_NOT_AUTHORIZED : Int = 453
+
+///|
+pub const ERROR_CAPAUTHZ_NOT_DEVUNLOCKED : Int = 450
+
+///|
+pub const ERROR_CAPAUTHZ_NOT_PROVISIONED : Int = 452
+
+///|
+pub const ERROR_CAPAUTHZ_NO_POLICY : Int = 454
+
+///|
+pub const ERROR_CAPAUTHZ_SCCD_DEV_MODE_REQUIRED : Int = 459
+
+///|
+pub const ERROR_CAPAUTHZ_SCCD_INVALID_CATALOG : Int = 456
+
+///|
+pub const ERROR_CAPAUTHZ_SCCD_NO_AUTH_ENTITY : Int = 457
+
+///|
+pub const ERROR_CAPAUTHZ_SCCD_NO_CAPABILITY_MATCH : Int = 460
+
+///|
+pub const ERROR_CAPAUTHZ_SCCD_PARSE_ERROR : Int = 458
+
+///|
+pub const ERROR_CARDBUS_NOT_SUPPORTED : Int = 724
+
+///|
+pub const ERROR_CASE_DIFFERING_NAMES_IN_DIR : Int = 424
+
+///|
+pub const ERROR_CASE_SENSITIVE_PATH : Int = 442
+
+///|
+pub const ERROR_CERTIFICATE_VALIDATION_PREFERENCE_CONFLICT : Int = 817
+
+///|
+pub const ERROR_CHECKING_FILE_SYSTEM : Int = 712
+
+///|
+pub const ERROR_CHECKOUT_REQUIRED : Int = 221
+
+///|
+pub const ERROR_CHILD_MUST_BE_VOLATILE : Int = 1021
+
+///|
+pub const ERROR_CHILD_NOT_COMPLETE : Int = 129
+
+///|
+pub const ERROR_CHILD_PROCESS_BLOCKED : Int = 367
+
+///|
+pub const ERROR_CHILD_WINDOW_MENU : Int = 1436
+
+///|
+pub const ERROR_CIMFS_IMAGE_CORRUPT : Int = 470
+
+///|
+pub const ERROR_CIMFS_IMAGE_VERSION_NOT_SUPPORTED : Int = 471
+
+///|
+pub const ERROR_CIRCULAR_DEPENDENCY : Int = 1059
+
+///|
+pub const ERROR_CLASS_ALREADY_EXISTS : Int = 1410
+
+///|
+pub const ERROR_CLASS_DOES_NOT_EXIST : Int = 1411
+
+///|
+pub const ERROR_CLASS_HAS_WINDOWS : Int = 1412
+
+///|
+pub const ERROR_CLIENT_SERVER_PARAMETERS_INVALID : Int = 597
+
+///|
+pub const ERROR_CLIPBOARD_NOT_OPEN : Int = 1418
+
+///|
+pub const ERROR_CLOUD_FILE_ACCESS_DENIED : Int = 395
+
+///|
+pub const ERROR_CLOUD_FILE_ALREADY_CONNECTED : Int = 378
+
+///|
+pub const ERROR_CLOUD_FILE_AUTHENTICATION_FAILED : Int = 386
+
+///|
+pub const ERROR_CLOUD_FILE_CONNECTED_PROVIDER_ONLY : Int = 382
+
+///|
+pub const ERROR_CLOUD_FILE_DEHYDRATION_DISALLOWED : Int = 434
+
+///|
+pub const ERROR_CLOUD_FILE_INCOMPATIBLE_HARDLINKS : Int = 396
+
+///|
+pub const ERROR_CLOUD_FILE_INSUFFICIENT_RESOURCES : Int = 387
+
+///|
+pub const ERROR_CLOUD_FILE_INVALID_REQUEST : Int = 380
+
+///|
+pub const ERROR_CLOUD_FILE_IN_USE : Int = 391
+
+///|
+pub const ERROR_CLOUD_FILE_METADATA_CORRUPT : Int = 363
+
+///|
+pub const ERROR_CLOUD_FILE_METADATA_TOO_LARGE : Int = 364
+
+///|
+pub const ERROR_CLOUD_FILE_NETWORK_UNAVAILABLE : Int = 388
+
+///|
+pub const ERROR_CLOUD_FILE_NOT_IN_SYNC : Int = 377
+
+///|
+pub const ERROR_CLOUD_FILE_NOT_SUPPORTED : Int = 379
+
+///|
+pub const ERROR_CLOUD_FILE_NOT_UNDER_SYNC_ROOT : Int = 390
+
+///|
+pub const ERROR_CLOUD_FILE_PINNED : Int = 392
+
+///|
+pub const ERROR_CLOUD_FILE_PROPERTY_BLOB_CHECKSUM_MISMATCH : Int = 366
+
+///|
+pub const ERROR_CLOUD_FILE_PROPERTY_BLOB_TOO_LARGE : Int = 365
+
+///|
+pub const ERROR_CLOUD_FILE_PROPERTY_CORRUPT : Int = 394
+
+///|
+pub const ERROR_CLOUD_FILE_PROPERTY_LOCK_CONFLICT : Int = 397
+
+///|
+pub const ERROR_CLOUD_FILE_PROPERTY_VERSION_NOT_SUPPORTED : Int = 375
+
+///|
+pub const ERROR_CLOUD_FILE_PROVIDER_NOT_RUNNING : Int = 362
+
+///|
+pub const ERROR_CLOUD_FILE_PROVIDER_TERMINATED : Int = 404
+
+///|
+pub const ERROR_CLOUD_FILE_READ_ONLY_VOLUME : Int = 381
+
+///|
+pub const ERROR_CLOUD_FILE_REQUEST_ABORTED : Int = 393
+
+///|
+pub const ERROR_CLOUD_FILE_REQUEST_CANCELED : Int = 398
+
+///|
+pub const ERROR_CLOUD_FILE_REQUEST_TIMEOUT : Int = 426
+
+///|
+pub const ERROR_CLOUD_FILE_SYNC_ROOT_METADATA_CORRUPT : Int = 358
+
+///|
+pub const ERROR_CLOUD_FILE_TOO_MANY_PROPERTY_BLOBS : Int = 374
+
+///|
+pub const ERROR_CLOUD_FILE_UNSUCCESSFUL : Int = 389
+
+///|
+pub const ERROR_CLOUD_FILE_US_MESSAGE_TIMEOUT : Int = 475
+
+///|
+pub const ERROR_CLOUD_FILE_VALIDATION_FAILED : Int = 383
+
+///|
+pub const ERROR_COMMITMENT_LIMIT : Int = 1455
+
+///|
+pub const ERROR_COMMITMENT_MINIMUM : Int = 635
+
+///|
+pub const ERROR_COMPRESSED_FILE_NOT_SUPPORTED : Int = 335
+
+///|
+pub const ERROR_COMPRESSION_DISABLED : Int = 769
+
+///|
+pub const ERROR_COMPRESSION_NOT_BENEFICIAL : Int = 344
+
+///|
+pub const ERROR_CONNECTED_OTHER_PASSWORD : Int = 2108
+
+///|
+pub const ERROR_CONNECTED_OTHER_PASSWORD_DEFAULT : Int = 2109
+
+///|
+pub const ERROR_CONNECTION_ABORTED : Int = 1236
+
+///|
+pub const ERROR_CONNECTION_ACTIVE : Int = 1230
+
+///|
+pub const ERROR_CONNECTION_COUNT_LIMIT : Int = 1238
+
+///|
+pub const ERROR_CONNECTION_INVALID : Int = 1229
+
+///|
+pub const ERROR_CONNECTION_REFUSED : Int = 1225
+
+///|
+pub const ERROR_CONNECTION_UNAVAIL : Int = 1201
+
+///|
+pub const ERROR_CONTAINER_ASSIGNED : Int = 1504
+
+///|
+pub const ERROR_CONTENT_BLOCKED : Int = 1296
+
+///|
+pub const ERROR_CONTEXT_EXPIRED : Int = 1931
+
+///|
+pub const ERROR_CONTINUE : Int = 1246
+
+///|
+pub const ERROR_CONTROL_C_EXIT : Int = 572
+
+///|
+pub const ERROR_CONTROL_ID_NOT_FOUND : Int = 1421
+
+///|
+pub const ERROR_CONVERT_TO_LARGE : Int = 600
+
+///|
+pub const ERROR_CORRUPT_LOG_CLEARED : Int = 798
+
+///|
+pub const ERROR_CORRUPT_LOG_CORRUPTED : Int = 795
+
+///|
+pub const ERROR_CORRUPT_LOG_DELETED_FULL : Int = 797
+
+///|
+pub const ERROR_CORRUPT_LOG_OVERFULL : Int = 794
+
+///|
+pub const ERROR_CORRUPT_LOG_UNAVAILABLE : Int = 796
+
+///|
+pub const ERROR_CORRUPT_SYSTEM_FILE : Int = 634
+
+///|
+pub const ERROR_COULD_NOT_INTERPRET : Int = 552
+
+///|
+pub const ERROR_COUNTER_TIMEOUT : Int = 1121
+
+///|
+pub const ERROR_CPU_SET_INVALID : Int = 813
+
+///|
+pub const ERROR_CRASH_DUMP : Int = 753
+
+///|
+pub const ERROR_CRC : Int = 23
+
+///|
+pub const ERROR_CREATE_FAILED : Int = 1631
+
+///|
+pub const ERROR_CROSS_PARTITION_VIOLATION : Int = 1661
+
+///|
+pub const ERROR_CSCSHARE_OFFLINE : Int = 1262
+
+///|
+pub const ERROR_CS_ENCRYPTION_EXISTING_ENCRYPTED_FILE : Int = 6019
+
+///|
+pub const ERROR_CS_ENCRYPTION_FILE_NOT_CSE : Int = 6021
+
+///|
+pub const ERROR_CS_ENCRYPTION_INVALID_SERVER_RESPONSE : Int = 6017
+
+///|
+pub const ERROR_CS_ENCRYPTION_NEW_ENCRYPTED_FILE : Int = 6020
+
+///|
+pub const ERROR_CS_ENCRYPTION_UNSUPPORTED_SERVER : Int = 6018
+
+///|
+pub const ERROR_CTX_CLIENT_QUERY_TIMEOUT : Int = 7040
+
+///|
+pub const ERROR_CTX_MODEM_RESPONSE_TIMEOUT : Int = 7012
+
+///|
+pub const ERROR_CURRENT_DIRECTORY : Int = 16
+
+///|
+pub const ERROR_CURRENT_DOMAIN_NOT_ALLOWED : Int = 1399
+
+///|
+pub const ERROR_DATABASE_DOES_NOT_EXIST : Int = 1065
+
+///|
+pub const ERROR_DATATYPE_MISMATCH : Int = 1629
+
+///|
+pub const ERROR_DATA_CHECKSUM_ERROR : Int = 323
+
+///|
+pub const ERROR_DATA_NOT_ACCEPTED : Int = 592
+
+///|
+pub const ERROR_DAX_MAPPING_EXISTS : Int = 361
+
+///|
+pub const ERROR_DBG_COMMAND_EXCEPTION : Int = 697
+
+///|
+pub const ERROR_DBG_CONTINUE : Int = 767
+
+///|
+pub const ERROR_DBG_CONTROL_BREAK : Int = 696
+
+///|
+pub const ERROR_DBG_CONTROL_C : Int = 693
+
+///|
+pub const ERROR_DBG_EXCEPTION_HANDLED : Int = 766
+
+///|
+pub const ERROR_DBG_EXCEPTION_NOT_HANDLED : Int = 688
+
+///|
+pub const ERROR_DBG_PRINTEXCEPTION_C : Int = 694
+
+///|
+pub const ERROR_DBG_REPLY_LATER : Int = 689
+
+///|
+pub const ERROR_DBG_RIPEXCEPTION : Int = 695
+
+///|
+pub const ERROR_DBG_TERMINATE_PROCESS : Int = 692
+
+///|
+pub const ERROR_DBG_TERMINATE_THREAD : Int = 691
+
+///|
+pub const ERROR_DBG_UNABLE_TO_PROVIDE_HANDLE : Int = 690
+
+///|
+pub const ERROR_DC_NOT_FOUND : Int = 1425
+
+///|
+pub const ERROR_DDE_FAIL : Int = 1156
+
+///|
+pub const ERROR_DEBUGGER_INACTIVE : Int = 1284
+
+///|
+pub const ERROR_DEBUG_ATTACH_FAILED : Int = 590
+
+///|
+pub const ERROR_DECRYPTION_FAILED : Int = 6001
+
+///|
+pub const ERROR_DELAY_LOAD_FAILED : Int = 1285
+
+///|
+pub const ERROR_DELETE_PENDING : Int = 303
+
+///|
+pub const ERROR_DEPENDENT_SERVICES_RUNNING : Int = 1051
+
+///|
+pub const ERROR_DESTINATION_ELEMENT_FULL : Int = 1161
+
+///|
+pub const ERROR_DESTROY_OBJECT_OF_OTHER_THREAD : Int = 1435
+
+///|
+pub const ERROR_DEVICE_ALREADY_ATTACHED : Int = 548
+
+///|
+pub const ERROR_DEVICE_ALREADY_REMEMBERED : Int = 1202
+
+///|
+pub const ERROR_DEVICE_DOOR_OPEN : Int = 1166
+
+///|
+pub const ERROR_DEVICE_ENUMERATION_ERROR : Int = 648
+
+///|
+pub const ERROR_DEVICE_FEATURE_NOT_SUPPORTED : Int = 316
+
+///|
+pub const ERROR_DEVICE_HARDWARE_ERROR : Int = 483
+
+///|
+pub const ERROR_DEVICE_HINT_NAME_BUFFER_TOO_SMALL : Int = 355
+
+///|
+pub const ERROR_DEVICE_IN_MAINTENANCE : Int = 359
+
+///|
+pub const ERROR_DEVICE_IN_USE : Int = 2404
+
+///|
+pub const ERROR_DEVICE_NOT_CONNECTED : Int = 1167
+
+///|
+pub const ERROR_DEVICE_NOT_PARTITIONED : Int = 1107
+
+///|
+pub const ERROR_DEVICE_NO_RESOURCES : Int = 322
+
+///|
+pub const ERROR_DEVICE_REINITIALIZATION_NEEDED : Int = 1164
+
+///|
+pub const ERROR_DEVICE_REMOVED : Int = 1617
+
+///|
+pub const ERROR_DEVICE_REQUIRES_CLEANING : Int = 1165
+
+///|
+pub const ERROR_DEVICE_RESET_REQUIRED : Int = 507
+
+///|
+pub const ERROR_DEVICE_SUPPORT_IN_PROGRESS : Int = 171
+
+///|
+pub const ERROR_DEVICE_UNREACHABLE : Int = 321
+
+///|
+pub const ERROR_DEV_NOT_EXIST : Int = 55
+
+///|
+pub const ERROR_DHCP_ADDRESS_CONFLICT : Int = 4100
+
+///|
+pub const ERROR_DIFFERENT_SERVICE_ACCOUNT : Int = 1079
+
+///|
+pub const ERROR_DIRECTORY : Int = 267
+
+///|
+pub const ERROR_DIRECTORY_NOT_SUPPORTED : Int = 336
+
+///|
+pub const ERROR_DIRECT_ACCESS_HANDLE : Int = 130
+
+///|
+pub const ERROR_DIR_EFS_DISALLOWED : Int = 6010
+
+///|
+pub const ERROR_DIR_NOT_EMPTY : Int = 145
+
+///|
+pub const ERROR_DIR_NOT_ROOT : Int = 144
+
+///|
+pub const ERROR_DISCARDED : Int = 157
+
+///|
+pub const ERROR_DISK_CHANGE : Int = 107
+
+///|
+pub const ERROR_DISK_CORRUPT : Int = 1393
+
+///|
+pub const ERROR_DISK_FULL : Int = 112
+
+///|
+pub const ERROR_DISK_OPERATION_FAILED : Int = 1127
+
+///|
+pub const ERROR_DISK_QUOTA_EXCEEDED : Int = 1295
+
+///|
+pub const ERROR_DISK_RECALIBRATE_FAILED : Int = 1126
+
+///|
+pub const ERROR_DISK_REPAIR_DISABLED : Int = 780
+
+///|
+pub const ERROR_DISK_REPAIR_REDIRECTED : Int = 792
+
+///|
+pub const ERROR_DISK_REPAIR_UNSUCCESSFUL : Int = 793
+
+///|
+pub const ERROR_DISK_RESET_FAILED : Int = 1128
+
+///|
+pub const ERROR_DISK_RESOURCES_EXHAUSTED : Int = 314
+
+///|
+pub const ERROR_DISK_TOO_FRAGMENTED : Int = 302
+
+///|
+pub const ERROR_DLL_INIT_FAILED : Int = 1114
+
+///|
+pub const ERROR_DLL_INIT_FAILED_LOGOFF : Int = 624
+
+///|
+pub const ERROR_DLL_MIGHT_BE_INCOMPATIBLE : Int = 687
+
+///|
+pub const ERROR_DLL_MIGHT_BE_INSECURE : Int = 686
+
+///|
+pub const ERROR_DLL_NOT_FOUND : Int = 1157
+
+///|
+pub const ERROR_DLP_POLICY_DENIES_OPERATION : Int = 446
+
+///|
+pub const ERROR_DLP_POLICY_SILENTLY_FAIL : Int = 449
+
+///|
+pub const ERROR_DLP_POLICY_WARNS_AGAINST_OPERATION : Int = 445
+
+///|
+pub const ERROR_DOMAIN_CONTROLLER_EXISTS : Int = 1250
+
+///|
+pub const ERROR_DOMAIN_CONTROLLER_NOT_FOUND : Int = 1908
+
+///|
+pub const ERROR_DOMAIN_CTRLR_CONFIG_ERROR : Int = 581
+
+///|
+pub const ERROR_DOMAIN_EXISTS : Int = 1356
+
+///|
+pub const ERROR_DOMAIN_LIMIT_EXCEEDED : Int = 1357
+
+///|
+pub const ERROR_DOMAIN_SID_SAME_AS_LOCAL_WORKSTATION : Int = 8644
+
+///|
+pub const ERROR_DOMAIN_TRUST_INCONSISTENT : Int = 1810
+
+///|
+pub const ERROR_DOWNGRADE_DETECTED : Int = 1265
+
+///|
+pub const ERROR_DPL_NOT_SUPPORTED_FOR_USER : Int = 423
+
+///|
+pub const ERROR_DRIVERS_LEAKING_LOCKED_PAGES : Int = 729
+
+///|
+pub const ERROR_DRIVER_BLOCKED : Int = 1275
+
+///|
+pub const ERROR_DRIVER_CANCEL_TIMEOUT : Int = 594
+
+///|
+pub const ERROR_DRIVER_DATABASE_ERROR : Int = 652
+
+///|
+pub const ERROR_DRIVER_FAILED_PRIOR_UNLOAD : Int = 654
+
+///|
+pub const ERROR_DRIVER_FAILED_SLEEP : Int = 633
+
+///|
+pub const ERROR_DRIVER_PROCESS_TERMINATED : Int = 1291
+
+///|
+pub const ERROR_DRIVE_LOCKED : Int = 108
+
+///|
+pub const ERROR_DS_ADD_REPLICA_INHIBITED : Int = 8302
+
+///|
+pub const ERROR_DS_ADMIN_LIMIT_EXCEEDED : Int = 8228
+
+///|
+pub const ERROR_DS_AFFECTS_MULTIPLE_DSAS : Int = 8249
+
+///|
+pub const ERROR_DS_AG_CANT_HAVE_UNIVERSAL_MEMBER : Int = 8578
+
+///|
+pub const ERROR_DS_ALIASED_OBJ_MISSING : Int = 8334
+
+///|
+pub const ERROR_DS_ALIAS_DEREF_PROBLEM : Int = 8244
+
+///|
+pub const ERROR_DS_ALIAS_POINTS_TO_ALIAS : Int = 8336
+
+///|
+pub const ERROR_DS_ALIAS_PROBLEM : Int = 8241
+
+///|
+pub const ERROR_DS_ATTRIBUTE_OR_VALUE_EXISTS : Int = 8205
+
+///|
+pub const ERROR_DS_ATTRIBUTE_OWNED_BY_SAM : Int = 8346
+
+///|
+pub const ERROR_DS_ATTRIBUTE_TYPE_UNDEFINED : Int = 8204
+
+///|
+pub const ERROR_DS_ATT_ALREADY_EXISTS : Int = 8318
+
+///|
+pub const ERROR_DS_ATT_IS_NOT_ON_OBJ : Int = 8310
+
+///|
+pub const ERROR_DS_ATT_NOT_DEF_FOR_CLASS : Int = 8317
+
+///|
+pub const ERROR_DS_ATT_NOT_DEF_IN_SCHEMA : Int = 8303
+
+///|
+pub const ERROR_DS_ATT_SCHEMA_REQ_ID : Int = 8399
+
+///|
+pub const ERROR_DS_ATT_SCHEMA_REQ_SYNTAX : Int = 8416
+
+///|
+pub const ERROR_DS_ATT_VAL_ALREADY_EXISTS : Int = 8323
+
+///|
+pub const ERROR_DS_AUDIT_FAILURE : Int = 8625
+
+///|
+pub const ERROR_DS_AUTHORIZATION_FAILED : Int = 8599
+
+///|
+pub const ERROR_DS_AUTH_METHOD_NOT_SUPPORTED : Int = 8231
+
+///|
+pub const ERROR_DS_AUTH_UNKNOWN : Int = 8234
+
+///|
+pub const ERROR_DS_AUX_CLS_TEST_FAIL : Int = 8389
+
+///|
+pub const ERROR_DS_BACKLINK_WITHOUT_LINK : Int = 8482
+
+///|
+pub const ERROR_DS_BAD_ATT_SCHEMA_SYNTAX : Int = 8400
+
+///|
+pub const ERROR_DS_BAD_HIERARCHY_FILE : Int = 8425
+
+///|
+pub const ERROR_DS_BAD_INSTANCE_TYPE : Int = 8313
+
+///|
+pub const ERROR_DS_BAD_NAME_SYNTAX : Int = 8335
+
+///|
+pub const ERROR_DS_BAD_RDN_ATT_ID_SYNTAX : Int = 8392
+
+///|
+pub const ERROR_DS_BUILD_HIERARCHY_TABLE_FAILED : Int = 8426
+
+///|
+pub const ERROR_DS_BUSY : Int = 8206
+
+///|
+pub const ERROR_DS_CANT_ACCESS_REMOTE_PART_OF_AD : Int = 8585
+
+///|
+pub const ERROR_DS_CANT_ADD_ATT_VALUES : Int = 8320
+
+///|
+pub const ERROR_DS_CANT_ADD_SYSTEM_ONLY : Int = 8358
+
+///|
+pub const ERROR_DS_CANT_ADD_TO_GC : Int = 8550
+
+///|
+pub const ERROR_DS_CANT_CACHE_ATT : Int = 8401
+
+///|
+pub const ERROR_DS_CANT_CACHE_CLASS : Int = 8402
+
+///|
+pub const ERROR_DS_CANT_CREATE_IN_NONDOMAIN_NC : Int = 8553
+
+///|
+pub const ERROR_DS_CANT_CREATE_UNDER_SCHEMA : Int = 8510
+
+///|
+pub const ERROR_DS_CANT_DELETE : Int = 8398
+
+///|
+pub const ERROR_DS_CANT_DELETE_DSA_OBJ : Int = 8340
+
+///|
+pub const ERROR_DS_CANT_DEL_MASTER_CROSSREF : Int = 8375
+
+///|
+pub const ERROR_DS_CANT_DEMOTE_WITH_WRITEABLE_NC : Int = 8604
+
+///|
+pub const ERROR_DS_CANT_DEREF_ALIAS : Int = 8337
+
+///|
+pub const ERROR_DS_CANT_DERIVE_SPN_FOR_DELETED_DOMAIN : Int = 8603
+
+///|
+pub const ERROR_DS_CANT_DERIVE_SPN_WITHOUT_SERVER_REF : Int = 8589
+
+///|
+pub const ERROR_DS_CANT_FIND_DC_FOR_SRC_DOMAIN : Int = 8537
+
+///|
+pub const ERROR_DS_CANT_FIND_DSA_OBJ : Int = 8419
+
+///|
+pub const ERROR_DS_CANT_FIND_EXPECTED_NC : Int = 8420
+
+///|
+pub const ERROR_DS_CANT_FIND_NC_IN_CACHE : Int = 8421
+
+///|
+pub const ERROR_DS_CANT_MIX_MASTER_AND_REPS : Int = 8331
+
+///|
+pub const ERROR_DS_CANT_MOD_OBJ_CLASS : Int = 8215
+
+///|
+pub const ERROR_DS_CANT_MOD_PRIMARYGROUPID : Int = 8506
+
+///|
+pub const ERROR_DS_CANT_MOD_SYSTEM_ONLY : Int = 8369
+
+///|
+pub const ERROR_DS_CANT_MOVE_ACCOUNT_GROUP : Int = 8498
+
+///|
+pub const ERROR_DS_CANT_MOVE_APP_BASIC_GROUP : Int = 8608
+
+///|
+pub const ERROR_DS_CANT_MOVE_APP_QUERY_GROUP : Int = 8609
+
+///|
+pub const ERROR_DS_CANT_MOVE_DELETED_OBJECT : Int = 8489
+
+///|
+pub const ERROR_DS_CANT_MOVE_RESOURCE_GROUP : Int = 8499
+
+///|
+pub const ERROR_DS_CANT_ON_NON_LEAF : Int = 8213
+
+///|
+pub const ERROR_DS_CANT_ON_RDN : Int = 8214
+
+///|
+pub const ERROR_DS_CANT_REMOVE_ATT_CACHE : Int = 8403
+
+///|
+pub const ERROR_DS_CANT_REMOVE_CLASS_CACHE : Int = 8404
+
+///|
+pub const ERROR_DS_CANT_REM_MISSING_ATT : Int = 8324
+
+///|
+pub const ERROR_DS_CANT_REM_MISSING_ATT_VAL : Int = 8325
+
+///|
+pub const ERROR_DS_CANT_REPLACE_HIDDEN_REC : Int = 8424
+
+///|
+pub const ERROR_DS_CANT_RETRIEVE_ATTS : Int = 8481
+
+///|
+pub const ERROR_DS_CANT_RETRIEVE_CHILD : Int = 8422
+
+///|
+pub const ERROR_DS_CANT_RETRIEVE_DN : Int = 8405
+
+///|
+pub const ERROR_DS_CANT_RETRIEVE_INSTANCE : Int = 8407
+
+///|
+pub const ERROR_DS_CANT_RETRIEVE_SD : Int = 8526
+
+///|
+pub const ERROR_DS_CANT_START : Int = 8531
+
+///|
+pub const ERROR_DS_CANT_TREE_DELETE_CRITICAL_OBJ : Int = 8560
+
+///|
+pub const ERROR_DS_CANT_WITH_ACCT_GROUP_MEMBERSHPS : Int = 8493
+
+///|
+pub const ERROR_DS_CHILDREN_EXIST : Int = 8332
+
+///|
+pub const ERROR_DS_CLASS_MUST_BE_CONCRETE : Int = 8359
+
+///|
+pub const ERROR_DS_CLASS_NOT_DSA : Int = 8343
+
+///|
+pub const ERROR_DS_CLIENT_LOOP : Int = 8259
+
+///|
+pub const ERROR_DS_CODE_INCONSISTENCY : Int = 8408
+
+///|
+pub const ERROR_DS_COMPARE_FALSE : Int = 8229
+
+///|
+pub const ERROR_DS_COMPARE_TRUE : Int = 8230
+
+///|
+pub const ERROR_DS_CONFIDENTIALITY_REQUIRED : Int = 8237
+
+///|
+pub const ERROR_DS_CONFIG_PARAM_MISSING : Int = 8427
+
+///|
+pub const ERROR_DS_CONSTRAINT_VIOLATION : Int = 8239
+
+///|
+pub const ERROR_DS_CONSTRUCTED_ATT_MOD : Int = 8475
+
+///|
+pub const ERROR_DS_CONTROL_NOT_FOUND : Int = 8258
+
+///|
+pub const ERROR_DS_COULDNT_CONTACT_FSMO : Int = 8367
+
+///|
+pub const ERROR_DS_COULDNT_IDENTIFY_OBJECTS_FOR_TREE_DELETE : Int = 8503
+
+///|
+pub const ERROR_DS_COULDNT_LOCK_TREE_FOR_DELETE : Int = 8502
+
+///|
+pub const ERROR_DS_COULDNT_UPDATE_SPNS : Int = 8525
+
+///|
+pub const ERROR_DS_COUNTING_AB_INDICES_FAILED : Int = 8428
+
+///|
+pub const ERROR_DS_CROSS_DOMAIN_CLEANUP_REQD : Int = 8491
+
+///|
+pub const ERROR_DS_CROSS_DOM_MOVE_ERROR : Int = 8216
+
+///|
+pub const ERROR_DS_CROSS_NC_DN_RENAME : Int = 8368
+
+///|
+pub const ERROR_DS_CROSS_REF_BUSY : Int = 8602
+
+///|
+pub const ERROR_DS_CROSS_REF_EXISTS : Int = 8374
+
+///|
+pub const ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE : Int = 8495
+
+///|
+pub const ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE_V2 : Int = 8586
+
+///|
+pub const ERROR_DS_DATABASE_ERROR : Int = 8409
+
+///|
+pub const ERROR_DS_DECODING_ERROR : Int = 8253
+
+///|
+pub const ERROR_DS_DESTINATION_AUDITING_NOT_ENABLED : Int = 8536
+
+///|
+pub const ERROR_DS_DESTINATION_DOMAIN_NOT_IN_FOREST : Int = 8535
+
+///|
+pub const ERROR_DS_DIFFERENT_REPL_EPOCHS : Int = 8593
+
+///|
+pub const ERROR_DS_DISALLOWED_IN_SYSTEM_CONTAINER : Int = 8615
+
+///|
+pub const ERROR_DS_DISALLOWED_NC_REDIRECT : Int = 8640
+
+///|
+pub const ERROR_DS_DNS_LOOKUP_FAILURE : Int = 8524
+
+///|
+pub const ERROR_DS_DOMAIN_NAME_EXISTS_IN_FOREST : Int = 8634
+
+///|
+pub const ERROR_DS_DOMAIN_RENAME_IN_PROGRESS : Int = 8612
+
+///|
+pub const ERROR_DS_DOMAIN_VERSION_TOO_HIGH : Int = 8564
+
+///|
+pub const ERROR_DS_DOMAIN_VERSION_TOO_LOW : Int = 8566
+
+///|
+pub const ERROR_DS_DRA_ABANDON_SYNC : Int = 8462
+
+///|
+pub const ERROR_DS_DRA_ACCESS_DENIED : Int = 8453
+
+///|
+pub const ERROR_DS_DRA_BAD_DN : Int = 8439
+
+///|
+pub const ERROR_DS_DRA_BAD_INSTANCE_TYPE : Int = 8445
+
+///|
+pub const ERROR_DS_DRA_BAD_NC : Int = 8440
+
+///|
+pub const ERROR_DS_DRA_BUSY : Int = 8438
+
+///|
+pub const ERROR_DS_DRA_CONNECTION_FAILED : Int = 8444
+
+///|
+pub const ERROR_DS_DRA_CORRUPT_UTD_VECTOR : Int = 8629
+
+///|
+pub const ERROR_DS_DRA_DB_ERROR : Int = 8451
+
+///|
+pub const ERROR_DS_DRA_DN_EXISTS : Int = 8441
+
+///|
+pub const ERROR_DS_DRA_EARLIER_SCHEMA_CONFLICT : Int = 8544
+
+///|
+pub const ERROR_DS_DRA_EXTN_CONNECTION_FAILED : Int = 8466
+
+///|
+pub const ERROR_DS_DRA_GENERIC : Int = 8436
+
+///|
+pub const ERROR_DS_DRA_INCOMPATIBLE_PARTIAL_SET : Int = 8464
+
+///|
+pub const ERROR_DS_DRA_INCONSISTENT_DIT : Int = 8443
+
+///|
+pub const ERROR_DS_DRA_INTERNAL_ERROR : Int = 8442
+
+///|
+pub const ERROR_DS_DRA_INVALID_PARAMETER : Int = 8437
+
+///|
+pub const ERROR_DS_DRA_MAIL_PROBLEM : Int = 8447
+
+///|
+pub const ERROR_DS_DRA_MISSING_KRBTGT_SECRET : Int = 8633
+
+///|
+pub const ERROR_DS_DRA_MISSING_PARENT : Int = 8460
+
+///|
+pub const ERROR_DS_DRA_NAME_COLLISION : Int = 8458
+
+///|
+pub const ERROR_DS_DRA_NOT_SUPPORTED : Int = 8454
+
+///|
+pub const ERROR_DS_DRA_NO_REPLICA : Int = 8452
+
+///|
+pub const ERROR_DS_DRA_OBJ_IS_REP_SOURCE : Int = 8450
+
+///|
+pub const ERROR_DS_DRA_OBJ_NC_MISMATCH : Int = 8545
+
+///|
+pub const ERROR_DS_DRA_OUT_OF_MEM : Int = 8446
+
+///|
+pub const ERROR_DS_DRA_OUT_SCHEDULE_WINDOW : Int = 8617
+
+///|
+pub const ERROR_DS_DRA_PREEMPTED : Int = 8461
+
+///|
+pub const ERROR_DS_DRA_RECYCLED_TARGET : Int = 8639
+
+///|
+pub const ERROR_DS_DRA_REF_ALREADY_EXISTS : Int = 8448
+
+///|
+pub const ERROR_DS_DRA_REF_NOT_FOUND : Int = 8449
+
+///|
+pub const ERROR_DS_DRA_REPL_PENDING : Int = 8477
+
+///|
+pub const ERROR_DS_DRA_RPC_CANCELLED : Int = 8455
+
+///|
+pub const ERROR_DS_DRA_SCHEMA_CONFLICT : Int = 8543
+
+///|
+pub const ERROR_DS_DRA_SCHEMA_INFO_SHIP : Int = 8542
+
+///|
+pub const ERROR_DS_DRA_SCHEMA_MISMATCH : Int = 8418
+
+///|
+pub const ERROR_DS_DRA_SECRETS_DENIED : Int = 8630
+
+///|
+pub const ERROR_DS_DRA_SHUTDOWN : Int = 8463
+
+///|
+pub const ERROR_DS_DRA_SINK_DISABLED : Int = 8457
+
+///|
+pub const ERROR_DS_DRA_SOURCE_DISABLED : Int = 8456
+
+///|
+pub const ERROR_DS_DRA_SOURCE_IS_PARTIAL_REPLICA : Int = 8465
+
+///|
+pub const ERROR_DS_DRA_SOURCE_REINSTALLED : Int = 8459
+
+///|
+pub const ERROR_DS_DRS_EXTENSIONS_CHANGED : Int = 8594
+
+///|
+pub const ERROR_DS_DSA_MUST_BE_INT_MASTER : Int = 8342
+
+///|
+pub const ERROR_DS_DST_DOMAIN_NOT_NATIVE : Int = 8496
+
+///|
+pub const ERROR_DS_DST_NC_MISMATCH : Int = 8486
+
+///|
+pub const ERROR_DS_DS_REQUIRED : Int = 8478
+
+///|
+pub const ERROR_DS_DUPLICATE_ID_FOUND : Int = 8605
+
+///|
+pub const ERROR_DS_DUP_LDAP_DISPLAY_NAME : Int = 8382
+
+///|
+pub const ERROR_DS_DUP_LINK_ID : Int = 8468
+
+///|
+pub const ERROR_DS_DUP_MAPI_ID : Int = 8380
+
+///|
+pub const ERROR_DS_DUP_MSDS_INTID : Int = 8597
+
+///|
+pub const ERROR_DS_DUP_OID : Int = 8379
+
+///|
+pub const ERROR_DS_DUP_RDN : Int = 8378
+
+///|
+pub const ERROR_DS_DUP_SCHEMA_ID_GUID : Int = 8381
+
+///|
+pub const ERROR_DS_ENCODING_ERROR : Int = 8252
+
+///|
+pub const ERROR_DS_EPOCH_MISMATCH : Int = 8483
+
+///|
+pub const ERROR_DS_EXISTING_AD_CHILD_NC : Int = 8613
+
+///|
+pub const ERROR_DS_EXISTS_IN_AUX_CLS : Int = 8393
+
+///|
+pub const ERROR_DS_EXISTS_IN_MAY_HAVE : Int = 8386
+
+///|
+pub const ERROR_DS_EXISTS_IN_MUST_HAVE : Int = 8385
+
+///|
+pub const ERROR_DS_EXISTS_IN_POSS_SUP : Int = 8395
+
+///|
+pub const ERROR_DS_EXISTS_IN_RDNATTID : Int = 8598
+
+///|
+pub const ERROR_DS_EXISTS_IN_SUB_CLS : Int = 8394
+
+///|
+pub const ERROR_DS_FILTER_UNKNOWN : Int = 8254
+
+///|
+pub const ERROR_DS_FILTER_USES_CONTRUCTED_ATTRS : Int = 8555
+
+///|
+pub const ERROR_DS_FLAT_NAME_EXISTS_IN_FOREST : Int = 8635
+
+///|
+pub const ERROR_DS_FOREST_VERSION_TOO_HIGH : Int = 8563
+
+///|
+pub const ERROR_DS_FOREST_VERSION_TOO_LOW : Int = 8565
+
+///|
+pub const ERROR_DS_GCVERIFY_ERROR : Int = 8417
+
+///|
+pub const ERROR_DS_GC_NOT_AVAILABLE : Int = 8217
+
+///|
+pub const ERROR_DS_GC_REQUIRED : Int = 8547
+
+///|
+pub const ERROR_DS_GENERIC_ERROR : Int = 8341
+
+///|
+pub const ERROR_DS_GLOBAL_CANT_HAVE_CROSSDOMAIN_MEMBER : Int = 8519
+
+///|
+pub const ERROR_DS_GLOBAL_CANT_HAVE_LOCAL_MEMBER : Int = 8516
+
+///|
+pub const ERROR_DS_GLOBAL_CANT_HAVE_UNIVERSAL_MEMBER : Int = 8517
+
+///|
+pub const ERROR_DS_GOVERNSID_MISSING : Int = 8410
+
+///|
+pub const ERROR_DS_GROUP_CONVERSION_ERROR : Int = 8607
+
+///|
+pub const ERROR_DS_HAVE_PRIMARY_MEMBERS : Int = 8521
+
+///|
+pub const ERROR_DS_HIERARCHY_TABLE_MALLOC_FAILED : Int = 8429
+
+///|
+pub const ERROR_DS_HIERARCHY_TABLE_TOO_DEEP : Int = 8628
+
+///|
+pub const ERROR_DS_HIGH_ADLDS_FFL : Int = 8641
+
+///|
+pub const ERROR_DS_HIGH_DSA_VERSION : Int = 8642
+
+///|
+pub const ERROR_DS_ILLEGAL_BASE_SCHEMA_MOD : Int = 8507
+
+///|
+pub const ERROR_DS_ILLEGAL_MOD_OPERATION : Int = 8311
+
+///|
+pub const ERROR_DS_ILLEGAL_SUPERIOR : Int = 8345
+
+///|
+pub const ERROR_DS_ILLEGAL_XDOM_MOVE_OPERATION : Int = 8492
+
+///|
+pub const ERROR_DS_INAPPROPRIATE_AUTH : Int = 8233
+
+///|
+pub const ERROR_DS_INAPPROPRIATE_MATCHING : Int = 8238
+
+///|
+pub const ERROR_DS_INCOMPATIBLE_CONTROLS_USED : Int = 8574
+
+///|
+pub const ERROR_DS_INCOMPATIBLE_VERSION : Int = 8567
+
+///|
+pub const ERROR_DS_INCORRECT_ROLE_OWNER : Int = 8210
+
+///|
+pub const ERROR_DS_INIT_FAILURE : Int = 8532
+
+///|
+pub const ERROR_DS_INIT_FAILURE_CONSOLE : Int = 8561
+
+///|
+pub const ERROR_DS_INSTALL_NO_SCH_VERSION_IN_INIFILE : Int = 8512
+
+///|
+pub const ERROR_DS_INSTALL_NO_SRC_SCH_VERSION : Int = 8511
+
+///|
+pub const ERROR_DS_INSTALL_SCHEMA_MISMATCH : Int = 8467
+
+///|
+pub const ERROR_DS_INSUFFICIENT_ATTR_TO_CREATE_OBJECT : Int = 8606
+
+///|
+pub const ERROR_DS_INSUFF_ACCESS_RIGHTS : Int = 8344
+
+///|
+pub const ERROR_DS_INTERNAL_FAILURE : Int = 8430
+
+///|
+pub const ERROR_DS_INVALID_ATTRIBUTE_SYNTAX : Int = 8203
+
+///|
+pub const ERROR_DS_INVALID_DMD : Int = 8360
+
+///|
+pub const ERROR_DS_INVALID_DN_SYNTAX : Int = 8242
+
+///|
+pub const ERROR_DS_INVALID_GROUP_TYPE : Int = 8513
+
+///|
+pub const ERROR_DS_INVALID_LDAP_DISPLAY_NAME : Int = 8479
+
+///|
+pub const ERROR_DS_INVALID_NAME_FOR_SPN : Int = 8554
+
+///|
+pub const ERROR_DS_INVALID_ROLE_OWNER : Int = 8366
+
+///|
+pub const ERROR_DS_INVALID_SCRIPT : Int = 8600
+
+///|
+pub const ERROR_DS_INVALID_SEARCH_FLAG : Int = 8500
+
+///|
+pub const ERROR_DS_INVALID_SEARCH_FLAG_SUBTREE : Int = 8626
+
+///|
+pub const ERROR_DS_INVALID_SEARCH_FLAG_TUPLE : Int = 8627
+
+///|
+pub const ERROR_DS_IS_LEAF : Int = 8243
+
+///|
+pub const ERROR_DS_KEY_NOT_UNIQUE : Int = 8527
+
+///|
+pub const ERROR_DS_LDAP_SEND_QUEUE_FULL : Int = 8616
+
+///|
+pub const ERROR_DS_LINK_ID_NOT_AVAILABLE : Int = 8577
+
+///|
+pub const ERROR_DS_LOCAL_CANT_HAVE_CROSSDOMAIN_LOCAL_MEMBER : Int = 8520
+
+///|
+pub const ERROR_DS_LOCAL_ERROR : Int = 8251
+
+///|
+pub const ERROR_DS_LOCAL_MEMBER_OF_LOCAL_ONLY : Int = 8548
+
+///|
+pub const ERROR_DS_LOOP_DETECT : Int = 8246
+
+///|
+pub const ERROR_DS_LOW_ADLDS_FFL : Int = 8643
+
+///|
+pub const ERROR_DS_LOW_DSA_VERSION : Int = 8568
+
+///|
+pub const ERROR_DS_MACHINE_ACCOUNT_CREATED_PRENT4 : Int = 8572
+
+///|
+pub const ERROR_DS_MACHINE_ACCOUNT_QUOTA_EXCEEDED : Int = 8557
+
+///|
+pub const ERROR_DS_MAPI_ID_NOT_AVAILABLE : Int = 8632
+
+///|
+pub const ERROR_DS_MASTERDSA_REQUIRED : Int = 8314
+
+///|
+pub const ERROR_DS_MAX_OBJ_SIZE_EXCEEDED : Int = 8304
+
+///|
+pub const ERROR_DS_MEMBERSHIP_EVALUATED_LOCALLY : Int = 8201
+
+///|
+pub const ERROR_DS_MISSING_EXPECTED_ATT : Int = 8411
+
+///|
+pub const ERROR_DS_MISSING_FOREST_TRUST : Int = 8649
+
+///|
+pub const ERROR_DS_MISSING_FSMO_SETTINGS : Int = 8434
+
+///|
+pub const ERROR_DS_MISSING_INFRASTRUCTURE_CONTAINER : Int = 8497
+
+///|
+pub const ERROR_DS_MISSING_REQUIRED_ATT : Int = 8316
+
+///|
+pub const ERROR_DS_MISSING_SUPREF : Int = 8406
+
+///|
+pub const ERROR_DS_MODIFYDN_DISALLOWED_BY_FLAG : Int = 8581
+
+///|
+pub const ERROR_DS_MODIFYDN_DISALLOWED_BY_INSTANCE_TYPE : Int = 8579
+
+///|
+pub const ERROR_DS_MODIFYDN_WRONG_GRANDPARENT : Int = 8582
+
+///|
+pub const ERROR_DS_MUST_BE_RUN_ON_DST_DC : Int = 8558
+
+///|
+pub const ERROR_DS_NAME_ERROR_DOMAIN_ONLY : Int = 8473
+
+///|
+pub const ERROR_DS_NAME_ERROR_NOT_FOUND : Int = 8470
+
+///|
+pub const ERROR_DS_NAME_ERROR_NOT_UNIQUE : Int = 8471
+
+///|
+pub const ERROR_DS_NAME_ERROR_NO_MAPPING : Int = 8472
+
+///|
+pub const ERROR_DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING : Int = 8474
+
+///|
+pub const ERROR_DS_NAME_ERROR_RESOLVING : Int = 8469
+
+///|
+pub const ERROR_DS_NAME_ERROR_TRUST_REFERRAL : Int = 8583
+
+///|
+pub const ERROR_DS_NAME_NOT_UNIQUE : Int = 8571
+
+///|
+pub const ERROR_DS_NAME_REFERENCE_INVALID : Int = 8373
+
+///|
+pub const ERROR_DS_NAME_TOO_LONG : Int = 8348
+
+///|
+pub const ERROR_DS_NAME_TOO_MANY_PARTS : Int = 8347
+
+///|
+pub const ERROR_DS_NAME_TYPE_UNKNOWN : Int = 8351
+
+///|
+pub const ERROR_DS_NAME_UNPARSEABLE : Int = 8350
+
+///|
+pub const ERROR_DS_NAME_VALUE_TOO_LONG : Int = 8349
+
+///|
+pub const ERROR_DS_NAMING_MASTER_GC : Int = 8523
+
+///|
+pub const ERROR_DS_NAMING_VIOLATION : Int = 8247
+
+///|
+pub const ERROR_DS_NCNAME_MISSING_CR_REF : Int = 8412
+
+///|
+pub const ERROR_DS_NCNAME_MUST_BE_NC : Int = 8357
+
+///|
+pub const ERROR_DS_NC_MUST_HAVE_NC_PARENT : Int = 8494
+
+///|
+pub const ERROR_DS_NC_STILL_HAS_DSAS : Int = 8546
+
+///|
+pub const ERROR_DS_NONEXISTENT_MAY_HAVE : Int = 8387
+
+///|
+pub const ERROR_DS_NONEXISTENT_MUST_HAVE : Int = 8388
+
+///|
+pub const ERROR_DS_NONEXISTENT_POSS_SUP : Int = 8390
+
+///|
+pub const ERROR_DS_NONSAFE_SCHEMA_CHANGE : Int = 8508
+
+///|
+pub const ERROR_DS_NON_ASQ_SEARCH : Int = 8624
+
+///|
+pub const ERROR_DS_NON_BASE_SEARCH : Int = 8480
+
+///|
+pub const ERROR_DS_NOTIFY_FILTER_TOO_COMPLEX : Int = 8377
+
+///|
+pub const ERROR_DS_NOT_AN_OBJECT : Int = 8352
+
+///|
+pub const ERROR_DS_NOT_AUTHORITIVE_FOR_DST_NC : Int = 8487
+
+///|
+pub const ERROR_DS_NOT_CLOSEST : Int = 8588
+
+///|
+pub const ERROR_DS_NOT_INSTALLED : Int = 8200
+
+///|
+pub const ERROR_DS_NOT_ON_BACKLINK : Int = 8362
+
+///|
+pub const ERROR_DS_NOT_SUPPORTED : Int = 8256
+
+///|
+pub const ERROR_DS_NOT_SUPPORTED_SORT_ORDER : Int = 8570
+
+///|
+pub const ERROR_DS_NO_ATTRIBUTE_OR_VALUE : Int = 8202
+
+///|
+pub const ERROR_DS_NO_BEHAVIOR_VERSION_IN_MIXEDDOMAIN : Int = 8569
+
+///|
+pub const ERROR_DS_NO_CHAINED_EVAL : Int = 8328
+
+///|
+pub const ERROR_DS_NO_CHAINING : Int = 8327
+
+///|
+pub const ERROR_DS_NO_CHECKPOINT_WITH_PDC : Int = 8551
+
+///|
+pub const ERROR_DS_NO_CROSSREF_FOR_NC : Int = 8363
+
+///|
+pub const ERROR_DS_NO_DELETED_NAME : Int = 8355
+
+///|
+pub const ERROR_DS_NO_FPO_IN_UNIVERSAL_GROUPS : Int = 8549
+
+///|
+pub const ERROR_DS_NO_MORE_RIDS : Int = 8209
+
+///|
+pub const ERROR_DS_NO_MSDS_INTID : Int = 8596
+
+///|
+pub const ERROR_DS_NO_NEST_GLOBALGROUP_IN_MIXEDDOMAIN : Int = 8514
+
+///|
+pub const ERROR_DS_NO_NEST_LOCALGROUP_IN_MIXEDDOMAIN : Int = 8515
+
+///|
+pub const ERROR_DS_NO_NTDSA_OBJECT : Int = 8623
+
+///|
+pub const ERROR_DS_NO_OBJECT_MOVE_IN_SCHEMA_NC : Int = 8580
+
+///|
+pub const ERROR_DS_NO_PARENT_OBJECT : Int = 8329
+
+///|
+pub const ERROR_DS_NO_PKT_PRIVACY_ON_CONNECTION : Int = 8533
+
+///|
+pub const ERROR_DS_NO_RDN_DEFINED_IN_SCHEMA : Int = 8306
+
+///|
+pub const ERROR_DS_NO_REF_DOMAIN : Int = 8575
+
+///|
+pub const ERROR_DS_NO_REQUESTED_ATTS_FOUND : Int = 8308
+
+///|
+pub const ERROR_DS_NO_RESULTS_RETURNED : Int = 8257
+
+///|
+pub const ERROR_DS_NO_RIDS_ALLOCATED : Int = 8208
+
+///|
+pub const ERROR_DS_NO_SERVER_OBJECT : Int = 8622
+
+///|
+pub const ERROR_DS_NO_SUCH_OBJECT : Int = 8240
+
+///|
+pub const ERROR_DS_NO_TREE_DELETE_ABOVE_NC : Int = 8501
+
+///|
+pub const ERROR_DS_NTDSCRIPT_PROCESS_ERROR : Int = 8592
+
+///|
+pub const ERROR_DS_NTDSCRIPT_SYNTAX_ERROR : Int = 8591
+
+///|
+pub const ERROR_DS_OBJECT_BEING_REMOVED : Int = 8339
+
+///|
+pub const ERROR_DS_OBJECT_CLASS_REQUIRED : Int = 8315
+
+///|
+pub const ERROR_DS_OBJECT_RESULTS_TOO_LARGE : Int = 8248
+
+///|
+pub const ERROR_DS_OBJ_CLASS_NOT_DEFINED : Int = 8371
+
+///|
+pub const ERROR_DS_OBJ_CLASS_NOT_SUBCLASS : Int = 8372
+
+///|
+pub const ERROR_DS_OBJ_CLASS_VIOLATION : Int = 8212
+
+///|
+pub const ERROR_DS_OBJ_GUID_EXISTS : Int = 8361
+
+///|
+pub const ERROR_DS_OBJ_NOT_FOUND : Int = 8333
+
+///|
+pub const ERROR_DS_OBJ_STRING_NAME_EXISTS : Int = 8305
+
+///|
+pub const ERROR_DS_OBJ_TOO_LARGE : Int = 8312
+
+///|
+pub const ERROR_DS_OFFSET_RANGE_ERROR : Int = 8262
+
+///|
+pub const ERROR_DS_OID_MAPPED_GROUP_CANT_HAVE_MEMBERS : Int = 8637
+
+///|
+pub const ERROR_DS_OID_NOT_FOUND : Int = 8638
+
+///|
+pub const ERROR_DS_OPERATIONS_ERROR : Int = 8224
+
+///|
+pub const ERROR_DS_OUT_OF_SCOPE : Int = 8338
+
+///|
+pub const ERROR_DS_OUT_OF_VERSION_STORE : Int = 8573
+
+///|
+pub const ERROR_DS_PARAM_ERROR : Int = 8255
+
+///|
+pub const ERROR_DS_PARENT_IS_AN_ALIAS : Int = 8330
+
+///|
+pub const ERROR_DS_PDC_OPERATION_IN_PROGRESS : Int = 8490
+
+///|
+pub const ERROR_DS_PER_ATTRIBUTE_AUTHZ_FAILED_DURING_ADD : Int = 8652
+
+///|
+pub const ERROR_DS_POLICY_NOT_KNOWN : Int = 8618
+
+///|
+pub const ERROR_DS_PROTOCOL_ERROR : Int = 8225
+
+///|
+pub const ERROR_DS_RANGE_CONSTRAINT : Int = 8322
+
+///|
+pub const ERROR_DS_RDN_DOESNT_MATCH_SCHEMA : Int = 8307
+
+///|
+pub const ERROR_DS_RECALCSCHEMA_FAILED : Int = 8396
+
+///|
+pub const ERROR_DS_REFERRAL : Int = 8235
+
+///|
+pub const ERROR_DS_REFERRAL_LIMIT_EXCEEDED : Int = 8260
+
+///|
+pub const ERROR_DS_REFUSING_FSMO_ROLES : Int = 8433
+
+///|
+pub const ERROR_DS_REMOTE_CROSSREF_OP_FAILED : Int = 8601
+
+///|
+pub const ERROR_DS_REPLICATOR_ONLY : Int = 8370
+
+///|
+pub const ERROR_DS_REPLICA_SET_CHANGE_NOT_ALLOWED_ON_DISABLED_CR : Int = 8595
+
+///|
+pub const ERROR_DS_REPL_LIFETIME_EXCEEDED : Int = 8614
+
+///|
+pub const ERROR_DS_RESERVED_LINK_ID : Int = 8576
+
+///|
+pub const ERROR_DS_RESERVED_MAPI_ID : Int = 8631
+
+///|
+pub const ERROR_DS_RIDMGR_DISABLED : Int = 8263
+
+///|
+pub const ERROR_DS_RIDMGR_INIT_ERROR : Int = 8211
+
+///|
+pub const ERROR_DS_ROLE_NOT_VERIFIED : Int = 8610
+
+///|
+pub const ERROR_DS_ROOT_CANT_BE_SUBREF : Int = 8326
+
+///|
+pub const ERROR_DS_ROOT_MUST_BE_NC : Int = 8301
+
+///|
+pub const ERROR_DS_ROOT_REQUIRES_CLASS_TOP : Int = 8432
+
+///|
+pub const ERROR_DS_SAM_INIT_FAILURE : Int = 8504
+
+///|
+pub const ERROR_DS_SAM_INIT_FAILURE_CONSOLE : Int = 8562
+
+///|
+pub const ERROR_DS_SAM_NEED_BOOTKEY_FLOPPY : Int = 8530
+
+///|
+pub const ERROR_DS_SAM_NEED_BOOTKEY_PASSWORD : Int = 8529
+
+///|
+pub const ERROR_DS_SCHEMA_ALLOC_FAILED : Int = 8415
+
+///|
+pub const ERROR_DS_SCHEMA_NOT_LOADED : Int = 8414
+
+///|
+pub const ERROR_DS_SCHEMA_UPDATE_DISALLOWED : Int = 8509
+
+///|
+pub const ERROR_DS_SECURITY_CHECKING_ERROR : Int = 8413
+
+///|
+pub const ERROR_DS_SECURITY_ILLEGAL_MODIFY : Int = 8423
+
+///|
+pub const ERROR_DS_SEC_DESC_INVALID : Int = 8354
+
+///|
+pub const ERROR_DS_SEC_DESC_TOO_SHORT : Int = 8353
+
+///|
+pub const ERROR_DS_SEMANTIC_ATT_TEST : Int = 8383
+
+///|
+pub const ERROR_DS_SENSITIVE_GROUP_VIOLATION : Int = 8505
+
+///|
+pub const ERROR_DS_SERVER_DOWN : Int = 8250
+
+///|
+pub const ERROR_DS_SHUTTING_DOWN : Int = 8364
+
+///|
+pub const ERROR_DS_SINGLE_USER_MODE_FAILED : Int = 8590
+
+///|
+pub const ERROR_DS_SINGLE_VALUE_CONSTRAINT : Int = 8321
+
+///|
+pub const ERROR_DS_SIZELIMIT_EXCEEDED : Int = 8227
+
+///|
+pub const ERROR_DS_SORT_CONTROL_MISSING : Int = 8261
+
+///|
+pub const ERROR_DS_SOURCE_AUDITING_NOT_ENABLED : Int = 8552
+
+///|
+pub const ERROR_DS_SOURCE_DOMAIN_IN_FOREST : Int = 8534
+
+///|
+pub const ERROR_DS_SPN_VALUE_NOT_UNIQUE_IN_FOREST : Int = 8647
+
+///|
+pub const ERROR_DS_SRC_AND_DST_NC_IDENTICAL : Int = 8485
+
+///|
+pub const ERROR_DS_SRC_AND_DST_OBJECT_CLASS_MISMATCH : Int = 8540
+
+///|
+pub const ERROR_DS_SRC_DC_MUST_BE_SP4_OR_GREATER : Int = 8559
+
+///|
+pub const ERROR_DS_SRC_GUID_MISMATCH : Int = 8488
+
+///|
+pub const ERROR_DS_SRC_NAME_MISMATCH : Int = 8484
+
+///|
+pub const ERROR_DS_SRC_OBJ_NOT_GROUP_OR_USER : Int = 8538
+
+///|
+pub const ERROR_DS_SRC_SID_EXISTS_IN_FOREST : Int = 8539
+
+///|
+pub const ERROR_DS_STRING_SD_CONVERSION_FAILED : Int = 8522
+
+///|
+pub const ERROR_DS_STRONG_AUTH_REQUIRED : Int = 8232
+
+///|
+pub const ERROR_DS_SUBREF_MUST_HAVE_PARENT : Int = 8356
+
+///|
+pub const ERROR_DS_SUBTREE_NOTIFY_NOT_NC_HEAD : Int = 8376
+
+///|
+pub const ERROR_DS_SUB_CLS_TEST_FAIL : Int = 8391
+
+///|
+pub const ERROR_DS_SYNTAX_MISMATCH : Int = 8384
+
+///|
+pub const ERROR_DS_THREAD_LIMIT_EXCEEDED : Int = 8587
+
+///|
+pub const ERROR_DS_TIMELIMIT_EXCEEDED : Int = 8226
+
+///|
+pub const ERROR_DS_TREE_DELETE_NOT_FINISHED : Int = 8397
+
+///|
+pub const ERROR_DS_UNABLE_TO_SURRENDER_ROLES : Int = 8435
+
+///|
+pub const ERROR_DS_UNAVAILABLE : Int = 8207
+
+///|
+pub const ERROR_DS_UNAVAILABLE_CRIT_EXTENSION : Int = 8236
+
+///|
+pub const ERROR_DS_UNDELETE_SAM_VALIDATION_FAILED : Int = 8645
+
+///|
+pub const ERROR_DS_UNICODEPWD_NOT_IN_QUOTES : Int = 8556
+
+///|
+pub const ERROR_DS_UNIVERSAL_CANT_HAVE_LOCAL_MEMBER : Int = 8518
+
+///|
+pub const ERROR_DS_UNKNOWN_ERROR : Int = 8431
+
+///|
+pub const ERROR_DS_UNKNOWN_OPERATION : Int = 8365
+
+///|
+pub const ERROR_DS_UNWILLING_TO_PERFORM : Int = 8245
+
+///|
+pub const ERROR_DS_UPN_VALUE_NOT_UNIQUE_IN_FOREST : Int = 8648
+
+///|
+pub const ERROR_DS_USER_BUFFER_TO_SMALL : Int = 8309
+
+///|
+pub const ERROR_DS_VALUE_KEY_NOT_UNIQUE : Int = 8650
+
+///|
+pub const ERROR_DS_VERSION_CHECK_FAILURE : Int = 643
+
+///|
+pub const ERROR_DS_WKO_CONTAINER_CANNOT_BE_SPECIAL : Int = 8611
+
+///|
+pub const ERROR_DS_WRONG_LINKED_ATT_SYNTAX : Int = 8528
+
+///|
+pub const ERROR_DS_WRONG_OM_OBJ_CLASS : Int = 8476
+
+///|
+pub const ERROR_DUPLICATE_PRIVILEGES : Int = 311
+
+///|
+pub const ERROR_DUPLICATE_SERVICE_NAME : Int = 1078
+
+///|
+pub const ERROR_DUP_DOMAINNAME : Int = 1221
+
+///|
+pub const ERROR_DUP_NAME : Int = 52
+
+///|
+pub const ERROR_DYNAMIC_CODE_BLOCKED : Int = 1655
+
+///|
+pub const ERROR_DYNLINK_FROM_INVALID_RING : Int = 196
+
+///|
+pub const ERROR_EAS_DIDNT_FIT : Int = 275
+
+///|
+pub const ERROR_EAS_NOT_SUPPORTED : Int = 282
+
+///|
+pub const ERROR_EA_ACCESS_DENIED : Int = 994
+
+///|
+pub const ERROR_EA_FILE_CORRUPT : Int = 276
+
+///|
+pub const ERROR_EA_LIST_INCONSISTENT : Int = 255
+
+///|
+pub const ERROR_EA_TABLE_FULL : Int = 277
+
+///|
+pub const ERROR_EDP_DPL_POLICY_CANT_BE_SATISFIED : Int = 357
+
+///|
+pub const ERROR_EDP_POLICY_DENIES_OPERATION : Int = 356
+
+///|
+pub const ERROR_EFS_ALG_BLOB_TOO_BIG : Int = 6013
+
+///|
+pub const ERROR_EFS_DISABLED : Int = 6015
+
+///|
+pub const ERROR_EFS_SERVER_NOT_TRUSTED : Int = 6011
+
+///|
+pub const ERROR_EFS_VERSION_NOT_SUPPORT : Int = 6016
+
+///|
+pub const ERROR_ELEVATION_REQUIRED : Int = 740
+
+///|
+pub const ERROR_ENCLAVE_FAILURE : Int = 349
+
+///|
+pub const ERROR_ENCLAVE_NOT_TERMINATED : Int = 814
+
+///|
+pub const ERROR_ENCLAVE_VIOLATION : Int = 815
+
+///|
+pub const ERROR_ENCRYPTED_FILE_NOT_SUPPORTED : Int = 489
+
+///|
+pub const ERROR_ENCRYPTED_IO_NOT_POSSIBLE : Int = 808
+
+///|
+pub const ERROR_ENCRYPTING_METADATA_DISALLOWED : Int = 431
+
+///|
+pub const ERROR_ENCRYPTION_DISABLED : Int = 430
+
+///|
+pub const ERROR_ENCRYPTION_FAILED : Int = 6000
+
+///|
+pub const ERROR_ENCRYPTION_POLICY_DENIES_OPERATION : Int = 6022
+
+///|
+pub const ERROR_END_OF_MEDIA : Int = 1100
+
+///|
+pub const ERROR_ENVVAR_NOT_FOUND : Int = 203
+
+///|
+pub const ERROR_EOM_OVERFLOW : Int = 1129
+
+///|
+pub const ERROR_ERRORS_ENCOUNTERED : Int = 774
+
+///|
+pub const ERROR_EVALUATION_EXPIRATION : Int = 622
+
+///|
+pub const ERROR_EVENTLOG_CANT_START : Int = 1501
+
+///|
+pub const ERROR_EVENTLOG_FILE_CHANGED : Int = 1503
+
+///|
+pub const ERROR_EVENTLOG_FILE_CORRUPT : Int = 1500
+
+///|
+pub const ERROR_EVENT_DONE : Int = 710
+
+///|
+pub const ERROR_EVENT_PENDING : Int = 711
+
+///|
+pub const ERROR_EXCEPTION_IN_SERVICE : Int = 1064
+
+///|
+pub const ERROR_EXCL_SEM_ALREADY_OWNED : Int = 101
+
+///|
+pub const ERROR_EXE_CANNOT_MODIFY_SIGNED_BINARY : Int = 217
+
+///|
+pub const ERROR_EXE_CANNOT_MODIFY_STRONG_SIGNED_BINARY : Int = 218
+
+///|
+pub const ERROR_EXE_MACHINE_TYPE_MISMATCH : Int = 216
+
+///|
+pub const ERROR_EXE_MARKED_INVALID : Int = 192
+
+///|
+pub const ERROR_EXTENDED_ERROR : Int = 1208
+
+///|
+pub const ERROR_EXTERNAL_BACKING_PROVIDER_UNKNOWN : Int = 343
+
+///|
+pub const ERROR_EXTERNAL_SYSKEY_NOT_SUPPORTED : Int = 399
+
+///|
+pub const ERROR_EXTRANEOUS_INFORMATION : Int = 677
+
+///|
+pub const ERROR_FAILED_DRIVER_ENTRY : Int = 647
+
+///|
+pub const ERROR_FAILED_SERVICE_CONTROLLER_CONNECT : Int = 1063
+
+///|
+pub const ERROR_FAIL_FAST_EXCEPTION : Int = 1653
+
+///|
+pub const ERROR_FAIL_I24 : Int = 83
+
+///|
+pub const ERROR_FAIL_NOACTION_REBOOT : Int = 350
+
+///|
+pub const ERROR_FAIL_RESTART : Int = 352
+
+///|
+pub const ERROR_FAIL_SHUTDOWN : Int = 351
+
+///|
+pub const ERROR_FATAL_APP_EXIT : Int = 713
+
+///|
+pub const ERROR_FILEMARK_DETECTED : Int = 1101
+
+///|
+pub const ERROR_FILENAME_EXCED_RANGE : Int = 206
+
+///|
+pub const ERROR_FILE_CHECKED_OUT : Int = 220
+
+///|
+pub const ERROR_FILE_CORRUPT : Int = 1392
+
+///|
+pub const ERROR_FILE_ENCRYPTED : Int = 6002
+
+///|
+pub const ERROR_FILE_EXISTS : Int = 80
+
+///|
+pub const ERROR_FILE_HANDLE_REVOKED : Int = 806
+
+///|
+pub const ERROR_FILE_INVALID : Int = 1006
+
+///|
+pub const ERROR_FILE_LEVEL_TRIM_NOT_SUPPORTED : Int = 326
+
+///|
+pub const ERROR_FILE_METADATA_OPTIMIZATION_IN_PROGRESS : Int = 809
+
+///|
+pub const ERROR_FILE_NOT_ENCRYPTED : Int = 6007
+
+///|
+pub const ERROR_FILE_NOT_FOUND : Int = 2
+
+///|
+pub const ERROR_FILE_NOT_SUPPORTED : Int = 425
+
+///|
+pub const ERROR_FILE_OFFLINE : Int = 4350
+
+///|
+pub const ERROR_FILE_PROTECTED_UNDER_DPL : Int = 406
+
+///|
+pub const ERROR_FILE_READ_ONLY : Int = 6009
+
+///|
+pub const ERROR_FILE_SNAP_INVALID_PARAMETER : Int = 440
+
+///|
+pub const ERROR_FILE_SNAP_IN_PROGRESS : Int = 435
+
+///|
+pub const ERROR_FILE_SNAP_IO_NOT_COORDINATED : Int = 438
+
+///|
+pub const ERROR_FILE_SNAP_MODIFY_NOT_SUPPORTED : Int = 437
+
+///|
+pub const ERROR_FILE_SNAP_UNEXPECTED_ERROR : Int = 439
+
+///|
+pub const ERROR_FILE_SNAP_USER_SECTION_NOT_SUPPORTED : Int = 436
+
+///|
+pub const ERROR_FILE_SYSTEM_LIMITATION : Int = 665
+
+///|
+pub const ERROR_FILE_SYSTEM_VIRTUALIZATION_BUSY : Int = 371
+
+///|
+pub const ERROR_FILE_SYSTEM_VIRTUALIZATION_INVALID_OPERATION : Int = 385
+
+///|
+pub const ERROR_FILE_SYSTEM_VIRTUALIZATION_METADATA_CORRUPT : Int = 370
+
+///|
+pub const ERROR_FILE_SYSTEM_VIRTUALIZATION_PROVIDER_UNKNOWN : Int = 372
+
+///|
+pub const ERROR_FILE_SYSTEM_VIRTUALIZATION_UNAVAILABLE : Int = 369
+
+///|
+pub const ERROR_FILE_TOO_LARGE : Int = 223
+
+///|
+pub const ERROR_FIRMWARE_UPDATED : Int = 728
+
+///|
+pub const ERROR_FLOAT_MULTIPLE_FAULTS : Int = 630
+
+///|
+pub const ERROR_FLOAT_MULTIPLE_TRAPS : Int = 631
+
+///|
+pub const ERROR_FLOPPY_BAD_REGISTERS : Int = 1125
+
+///|
+pub const ERROR_FLOPPY_ID_MARK_NOT_FOUND : Int = 1122
+
+///|
+pub const ERROR_FLOPPY_UNKNOWN_ERROR : Int = 1124
+
+///|
+pub const ERROR_FLOPPY_VOLUME : Int = 584
+
+///|
+pub const ERROR_FLOPPY_WRONG_CYLINDER : Int = 1123
+
+///|
+pub const ERROR_FORMS_AUTH_REQUIRED : Int = 224
+
+///|
+pub const ERROR_FOUND_OUT_OF_SCOPE : Int = 601
+
+///|
+pub const ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY : Int = 762
+
+///|
+pub const ERROR_FS_DRIVER_REQUIRED : Int = 588
+
+///|
+pub const ERROR_FS_METADATA_INCONSISTENT : Int = 510
+
+///|
+pub const ERROR_FT_DI_SCAN_REQUIRED : Int = 339
+
+///|
+pub const ERROR_FT_READ_FAILURE : Int = 415
+
+///|
+pub const ERROR_FT_READ_FROM_COPY_FAILURE : Int = 818
+
+///|
+pub const ERROR_FT_READ_RECOVERY_FROM_BACKUP : Int = 704
+
+///|
+pub const ERROR_FT_WRITE_FAILURE : Int = 338
+
+///|
+pub const ERROR_FT_WRITE_RECOVERY : Int = 705
+
+///|
+pub const ERROR_FULLSCREEN_MODE : Int = 1007
+
+///|
+pub const ERROR_FUNCTION_FAILED : Int = 1627
+
+///|
+pub const ERROR_FUNCTION_NOT_CALLED : Int = 1626
+
+///|
+pub const ERROR_GDI_HANDLE_LEAK : Int = 373
+
+///|
+pub const ERROR_GENERIC_NOT_MAPPED : Int = 1360
+
+///|
+pub const ERROR_GEN_FAILURE : Int = 31
+
+///|
+pub const ERROR_GLOBAL_ONLY_HOOK : Int = 1429
+
+///|
+pub const ERROR_GRACEFUL_DISCONNECT : Int = 1226
+
+///|
+pub const ERROR_GROUP_EXISTS : Int = 1318
+
+///|
+pub const ERROR_GUID_SUBSTITUTION_MADE : Int = 680
+
+///|
+pub const ERROR_HANDLES_CLOSED : Int = 676
+
+///|
+pub const ERROR_HANDLE_DISK_FULL : Int = 39
+
+///|
+pub const ERROR_HANDLE_EOF : Int = 38
+
+///|
+pub const ERROR_HANDLE_REVOKED : Int = 811
+
+///|
+pub const ERROR_HAS_SYSTEM_CRITICAL_FILES : Int = 488
+
+///|
+pub const ERROR_HIBERNATED : Int = 726
+
+///|
+pub const ERROR_HIBERNATION_FAILURE : Int = 656
+
+///|
+pub const ERROR_HOOK_NEEDS_HMOD : Int = 1428
+
+///|
+pub const ERROR_HOOK_NOT_INSTALLED : Int = 1431
+
+///|
+pub const ERROR_HOOK_TYPE_NOT_ALLOWED : Int = 1458
+
+///|
+pub const ERROR_HOST_DOWN : Int = 1256
+
+///|
+pub const ERROR_HOST_UNREACHABLE : Int = 1232
+
+///|
+pub const ERROR_HOTKEY_ALREADY_REGISTERED : Int = 1409
+
+///|
+pub const ERROR_HOTKEY_NOT_REGISTERED : Int = 1419
+
+///|
+pub const ERROR_HWNDS_HAVE_DIFF_PARENT : Int = 1441
+
+///|
+pub const ERROR_ILLEGAL_CHARACTER : Int = 582
+
+///|
+pub const ERROR_ILLEGAL_DLL_RELOCATION : Int = 623
+
+///|
+pub const ERROR_ILLEGAL_ELEMENT_ADDRESS : Int = 1162
+
+///|
+pub const ERROR_ILLEGAL_FLOAT_CONTEXT : Int = 579
+
+///|
+pub const ERROR_ILL_FORMED_PASSWORD : Int = 1324
+
+///|
+pub const ERROR_IMAGE_AT_DIFFERENT_BASE : Int = 807
+
+///|
+pub const ERROR_IMAGE_MACHINE_TYPE_MISMATCH : Int = 706
+
+///|
+pub const ERROR_IMAGE_MACHINE_TYPE_MISMATCH_EXE : Int = 720
+
+///|
+pub const ERROR_IMAGE_NOT_AT_BASE : Int = 700
+
+///|
+pub const ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT : Int = 308
+
+///|
+pub const ERROR_IMPLEMENTATION_LIMIT : Int = 1292
+
+///|
+pub const ERROR_INCOMPATIBLE_SERVICE_PRIVILEGE : Int = 1297
+
+///|
+pub const ERROR_INCOMPATIBLE_SERVICE_SID_TYPE : Int = 1290
+
+///|
+pub const ERROR_INCOMPATIBLE_WITH_GLOBAL_SHORT_NAME_REGISTRY_SETTING : Int = 304
+
+///|
+pub const ERROR_INCORRECT_ACCOUNT_TYPE : Int = 8646
+
+///|
+pub const ERROR_INCORRECT_ADDRESS : Int = 1241
+
+///|
+pub const ERROR_INCORRECT_SIZE : Int = 1462
+
+///|
+pub const ERROR_INDEX_ABSENT : Int = 1611
+
+///|
+pub const ERROR_INDEX_OUT_OF_BOUNDS : Int = 474
+
+///|
+pub const ERROR_INFLOOP_IN_RELOC_CHAIN : Int = 202
+
+///|
+pub const ERROR_INSTALL_ALREADY_RUNNING : Int = 1618
+
+///|
+pub const ERROR_INSTALL_FAILURE : Int = 1603
+
+///|
+pub const ERROR_INSTALL_LANGUAGE_UNSUPPORTED : Int = 1623
+
+///|
+pub const ERROR_INSTALL_LOG_FAILURE : Int = 1622
+
+///|
+pub const ERROR_INSTALL_NOTUSED : Int = 1634
+
+///|
+pub const ERROR_INSTALL_PACKAGE_INVALID : Int = 1620
+
+///|
+pub const ERROR_INSTALL_PACKAGE_OPEN_FAILED : Int = 1619
+
+///|
+pub const ERROR_INSTALL_PACKAGE_REJECTED : Int = 1625
+
+///|
+pub const ERROR_INSTALL_PACKAGE_VERSION : Int = 1613
+
+///|
+pub const ERROR_INSTALL_PLATFORM_UNSUPPORTED : Int = 1633
+
+///|
+pub const ERROR_INSTALL_REJECTED : Int = 1654
+
+///|
+pub const ERROR_INSTALL_REMOTE_DISALLOWED : Int = 1640
+
+///|
+pub const ERROR_INSTALL_REMOTE_PROHIBITED : Int = 1645
+
+///|
+pub const ERROR_INSTALL_SERVICE_FAILURE : Int = 1601
+
+///|
+pub const ERROR_INSTALL_SERVICE_SAFEBOOT : Int = 1652
+
+///|
+pub const ERROR_INSTALL_SOURCE_ABSENT : Int = 1612
+
+///|
+pub const ERROR_INSTALL_SUSPEND : Int = 1604
+
+///|
+pub const ERROR_INSTALL_TEMP_UNWRITABLE : Int = 1632
+
+///|
+pub const ERROR_INSTALL_TRANSFORM_FAILURE : Int = 1624
+
+///|
+pub const ERROR_INSTALL_TRANSFORM_REJECTED : Int = 1644
+
+///|
+pub const ERROR_INSTALL_UI_FAILURE : Int = 1621
+
+///|
+pub const ERROR_INSTALL_USEREXIT : Int = 1602
+
+///|
+pub const ERROR_INSTRUCTION_MISALIGNMENT : Int = 549
+
+///|
+pub const ERROR_INSUFFICIENT_BUFFER : Int = 122
+
+///|
+pub const ERROR_INSUFFICIENT_LOGON_INFO : Int = 608
+
+///|
+pub const ERROR_INSUFFICIENT_POWER : Int = 639
+
+///|
+pub const ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE : Int = 781
+
+///|
+pub const ERROR_INSUFFICIENT_VIRTUAL_ADDR_RESOURCES : Int = 473
+
+///|
+pub const ERROR_INTERMIXED_KERNEL_EA_OPERATION : Int = 324
+
+///|
+pub const ERROR_INTERNAL_DB_CORRUPTION : Int = 1358
+
+///|
+pub const ERROR_INTERNAL_DB_ERROR : Int = 1383
+
+///|
+pub const ERROR_INTERNAL_ERROR : Int = 1359
+
+///|
+pub const ERROR_INTERRUPT_STILL_CONNECTED : Int = 764
+
+///|
+pub const ERROR_INTERRUPT_VECTOR_ALREADY_CONNECTED : Int = 763
+
+///|
+pub const ERROR_INVALID_ACCEL_HANDLE : Int = 1403
+
+///|
+pub const ERROR_INVALID_ACCESS : Int = 12
+
+///|
+pub const ERROR_INVALID_ACCOUNT_NAME : Int = 1315
+
+///|
+pub const ERROR_INVALID_ACE_CONDITION : Int = 805
+
+///|
+pub const ERROR_INVALID_ACL : Int = 1336
+
+///|
+pub const ERROR_INVALID_ADDRESS : Int = 487
+
+///|
+pub const ERROR_INVALID_AT_INTERRUPT_TIME : Int = 104
+
+///|
+pub const ERROR_INVALID_BLOCK : Int = 9
+
+///|
+pub const ERROR_INVALID_BLOCK_LENGTH : Int = 1106
+
+///|
+pub const ERROR_INVALID_CAP : Int = 320
+
+///|
+pub const ERROR_INVALID_CATEGORY : Int = 117
+
+///|
+pub const ERROR_INVALID_COMBOBOX_MESSAGE : Int = 1422
+
+///|
+pub const ERROR_INVALID_COMMAND_LINE : Int = 1639
+
+///|
+pub const ERROR_INVALID_COMPUTERNAME : Int = 1210
+
+///|
+pub const ERROR_INVALID_CRUNTIME_PARAMETER : Int = 1288
+
+///|
+pub const ERROR_INVALID_CURSOR_HANDLE : Int = 1402
+
+///|
+pub const ERROR_INVALID_DATA : Int = 13
+
+///|
+pub const ERROR_INVALID_DATATYPE : Int = 1804
+
+///|
+pub const ERROR_INVALID_DEVICE_OBJECT_PARAMETER : Int = 650
+
+///|
+pub const ERROR_INVALID_DLL : Int = 1154
+
+///|
+pub const ERROR_INVALID_DOMAINNAME : Int = 1212
+
+///|
+pub const ERROR_INVALID_DOMAIN_ROLE : Int = 1354
+
+///|
+pub const ERROR_INVALID_DOMAIN_STATE : Int = 1353
+
+///|
+pub const ERROR_INVALID_DRIVE : Int = 15
+
+///|
+pub const ERROR_INVALID_DWP_HANDLE : Int = 1405
+
+///|
+pub const ERROR_INVALID_EA_HANDLE : Int = 278
+
+///|
+pub const ERROR_INVALID_EA_NAME : Int = 254
+
+///|
+pub const ERROR_INVALID_EDIT_HEIGHT : Int = 1424
+
+///|
+pub const ERROR_INVALID_ENVIRONMENT : Int = 1805
+
+///|
+pub const ERROR_INVALID_EVENTNAME : Int = 1211
+
+///|
+pub const ERROR_INVALID_EVENT_COUNT : Int = 151
+
+///|
+pub const ERROR_INVALID_EXCEPTION_HANDLER : Int = 310
+
+///|
+pub const ERROR_INVALID_EXE_SIGNATURE : Int = 191
+
+///|
+pub const ERROR_INVALID_FIELD : Int = 1616
+
+///|
+pub const ERROR_INVALID_FIELD_IN_PARAMETER_LIST : Int = 328
+
+///|
+pub const ERROR_INVALID_FILTER_PROC : Int = 1427
+
+///|
+pub const ERROR_INVALID_FLAGS : Int = 1004
+
+///|
+pub const ERROR_INVALID_FLAG_NUMBER : Int = 186
+
+///|
+pub const ERROR_INVALID_FORM_NAME : Int = 1902
+
+///|
+pub const ERROR_INVALID_FORM_SIZE : Int = 1903
+
+///|
+pub const ERROR_INVALID_FUNCTION : Int = 1
+
+///|
+pub const ERROR_INVALID_GROUPNAME : Int = 1209
+
+///|
+pub const ERROR_INVALID_GROUP_ATTRIBUTES : Int = 1345
+
+///|
+pub const ERROR_INVALID_GW_COMMAND : Int = 1443
+
+///|
+pub const ERROR_INVALID_HANDLE : Int = 6
+
+///|
+pub const ERROR_INVALID_HANDLE_STATE : Int = 1609
+
+///|
+pub const ERROR_INVALID_HOOK_FILTER : Int = 1426
+
+///|
+pub const ERROR_INVALID_HOOK_HANDLE : Int = 1404
+
+///|
+pub const ERROR_INVALID_HW_PROFILE : Int = 619
+
+///|
+pub const ERROR_INVALID_ICON_HANDLE : Int = 1414
+
+///|
+pub const ERROR_INVALID_ID_AUTHORITY : Int = 1343
+
+///|
+pub const ERROR_INVALID_IMAGE_HASH : Int = 577
+
+///|
+pub const ERROR_INVALID_IMPORT_OF_NON_DLL : Int = 1276
+
+///|
+pub const ERROR_INVALID_INDEX : Int = 1413
+
+///|
+pub const ERROR_INVALID_KERNEL_INFO_VERSION : Int = 340
+
+///|
+pub const ERROR_INVALID_KEYBOARD_HANDLE : Int = 1457
+
+///|
+pub const ERROR_INVALID_LABEL : Int = 1299
+
+///|
+pub const ERROR_INVALID_LB_MESSAGE : Int = 1432
+
+///|
+pub const ERROR_INVALID_LDT_DESCRIPTOR : Int = 564
+
+///|
+pub const ERROR_INVALID_LDT_OFFSET : Int = 563
+
+///|
+pub const ERROR_INVALID_LDT_SIZE : Int = 561
+
+///|
+pub const ERROR_INVALID_LEVEL : Int = 124
+
+///|
+pub const ERROR_INVALID_LIST_FORMAT : Int = 153
+
+///|
+pub const ERROR_INVALID_LOCK_RANGE : Int = 307
+
+///|
+pub const ERROR_INVALID_LOGON_HOURS : Int = 1328
+
+///|
+pub const ERROR_INVALID_LOGON_TYPE : Int = 1367
+
+///|
+pub const ERROR_INVALID_MEMBER : Int = 1388
+
+///|
+pub const ERROR_INVALID_MENU_HANDLE : Int = 1401
+
+///|
+pub const ERROR_INVALID_MESSAGE : Int = 1002
+
+///|
+pub const ERROR_INVALID_MESSAGEDEST : Int = 1218
+
+///|
+pub const ERROR_INVALID_MESSAGENAME : Int = 1217
+
+///|
+pub const ERROR_INVALID_MINALLOCSIZE : Int = 195
+
+///|
+pub const ERROR_INVALID_MODULETYPE : Int = 190
+
+///|
+pub const ERROR_INVALID_MONITOR_HANDLE : Int = 1461
+
+///|
+pub const ERROR_INVALID_MSGBOX_STYLE : Int = 1438
+
+///|
+pub const ERROR_INVALID_NAME : Int = 123
+
+///|
+pub const ERROR_INVALID_NETNAME : Int = 1214
+
+///|
+pub const ERROR_INVALID_OPLOCK_PROTOCOL : Int = 301
+
+///|
+pub const ERROR_INVALID_ORDINAL : Int = 182
+
+///|
+pub const ERROR_INVALID_OWNER : Int = 1307
+
+///|
+pub const ERROR_INVALID_PACKAGE_SID_LENGTH : Int = 4253
+
+///|
+pub const ERROR_INVALID_PARAMETER : Int = 87
+
+///|
+pub const ERROR_INVALID_PASSWORD : Int = 86
+
+///|
+pub const ERROR_INVALID_PASSWORDNAME : Int = 1216
+
+///|
+pub const ERROR_INVALID_PATCH_XML : Int = 1650
+
+///|
+pub const ERROR_INVALID_PEP_INFO_VERSION : Int = 341
+
+///|
+pub const ERROR_INVALID_PLUGPLAY_DEVICE_PATH : Int = 620
+
+///|
+pub const ERROR_INVALID_PORT_ATTRIBUTES : Int = 545
+
+///|
+pub const ERROR_INVALID_PRIMARY_GROUP : Int = 1308
+
+///|
+pub const ERROR_INVALID_PRINTER_COMMAND : Int = 1803
+
+///|
+pub const ERROR_INVALID_PRINTER_NAME : Int = 1801
+
+///|
+pub const ERROR_INVALID_PRINTER_STATE : Int = 1906
+
+///|
+pub const ERROR_INVALID_PRIORITY : Int = 1800
+
+///|
+pub const ERROR_INVALID_QUOTA_LOWER : Int = 547
+
+///|
+pub const ERROR_INVALID_REPARSE_DATA : Int = 4392
+
+///|
+pub const ERROR_INVALID_SCROLLBAR_RANGE : Int = 1448
+
+///|
+pub const ERROR_INVALID_SECURITY_DESCR : Int = 1338
+
+///|
+pub const ERROR_INVALID_SEGDPL : Int = 198
+
+///|
+pub const ERROR_INVALID_SEGMENT_NUMBER : Int = 180
+
+///|
+pub const ERROR_INVALID_SEPARATOR_FILE : Int = 1799
+
+///|
+pub const ERROR_INVALID_SERVER_STATE : Int = 1352
+
+///|
+pub const ERROR_INVALID_SERVICENAME : Int = 1213
+
+///|
+pub const ERROR_INVALID_SERVICE_ACCOUNT : Int = 1057
+
+///|
+pub const ERROR_INVALID_SERVICE_CONTROL : Int = 1052
+
+///|
+pub const ERROR_INVALID_SERVICE_LOCK : Int = 1071
+
+///|
+pub const ERROR_INVALID_SHARENAME : Int = 1215
+
+///|
+pub const ERROR_INVALID_SHOWWIN_COMMAND : Int = 1449
+
+///|
+pub const ERROR_INVALID_SID : Int = 1337
+
+///|
+pub const ERROR_INVALID_SIGNAL_NUMBER : Int = 209
+
+///|
+pub const ERROR_INVALID_SPI_VALUE : Int = 1439
+
+///|
+pub const ERROR_INVALID_STACKSEG : Int = 189
+
+///|
+pub const ERROR_INVALID_STARTING_CODESEG : Int = 188
+
+///|
+pub const ERROR_INVALID_SUB_AUTHORITY : Int = 1335
+
+///|
+pub const ERROR_INVALID_TABLE : Int = 1628
+
+///|
+pub const ERROR_INVALID_TARGET_HANDLE : Int = 114
+
+///|
+pub const ERROR_INVALID_TASK_INDEX : Int = 1551
+
+///|
+pub const ERROR_INVALID_TASK_NAME : Int = 1550
+
+///|
+pub const ERROR_INVALID_THREAD_ID : Int = 1444
+
+///|
+pub const ERROR_INVALID_TIME : Int = 1901
+
+///|
+pub const ERROR_INVALID_TOKEN : Int = 315
+
+///|
+pub const ERROR_INVALID_UNWIND_TARGET : Int = 544
+
+///|
+pub const ERROR_INVALID_USER_BUFFER : Int = 1784
+
+///|
+pub const ERROR_INVALID_USER_PRINCIPAL_NAME : Int = 8636
+
+///|
+pub const ERROR_INVALID_VARIANT : Int = 604
+
+///|
+pub const ERROR_INVALID_VERIFY_SWITCH : Int = 118
+
+///|
+pub const ERROR_INVALID_WINDOW_HANDLE : Int = 1400
+
+///|
+pub const ERROR_INVALID_WORKSTATION : Int = 1329
+
+///|
+pub const ERROR_IOPL_NOT_ENABLED : Int = 197
+
+///|
+pub const ERROR_IO_DEVICE : Int = 1117
+
+///|
+pub const ERROR_IO_INCOMPLETE : Int = 996
+
+///|
+pub const ERROR_IO_PENDING : Int = 997
+
+///|
+pub const ERROR_IO_PRIVILEGE_FAILED : Int = 571
+
+///|
+pub const ERROR_IO_REISSUE_AS_CACHED : Int = 3950
+
+///|
+pub const ERROR_IPSEC_IKE_TIMED_OUT : Int = 13805
+
+///|
+pub const ERROR_IP_ADDRESS_CONFLICT1 : Int = 611
+
+///|
+pub const ERROR_IP_ADDRESS_CONFLICT2 : Int = 612
+
+///|
+pub const ERROR_IRQ_BUSY : Int = 1119
+
+///|
+pub const ERROR_IS_JOINED : Int = 134
+
+///|
+pub const ERROR_IS_JOIN_PATH : Int = 147
+
+///|
+pub const ERROR_IS_JOIN_TARGET : Int = 133
+
+///|
+pub const ERROR_IS_SUBSTED : Int = 135
+
+///|
+pub const ERROR_IS_SUBST_PATH : Int = 146
+
+///|
+pub const ERROR_IS_SUBST_TARGET : Int = 149
+
+///|
+pub const ERROR_ITERATED_DATA_EXCEEDS_64k : Int = 194
+
+///|
+pub const ERROR_JOB_NO_CONTAINER : Int = 1505
+
+///|
+pub const ERROR_JOIN_TO_JOIN : Int = 138
+
+///|
+pub const ERROR_JOIN_TO_SUBST : Int = 140
+
+///|
+pub const ERROR_JOURNAL_DELETE_IN_PROGRESS : Int = 1178
+
+///|
+pub const ERROR_JOURNAL_ENTRY_DELETED : Int = 1181
+
+///|
+pub const ERROR_JOURNAL_HOOK_SET : Int = 1430
+
+///|
+pub const ERROR_JOURNAL_NOT_ACTIVE : Int = 1179
+
+///|
+pub const ERROR_KERNEL_APC : Int = 738
+
+///|
+pub const ERROR_KEY_DELETED : Int = 1018
+
+///|
+pub const ERROR_KEY_HAS_CHILDREN : Int = 1020
+
+///|
+pub const ERROR_KM_DRIVER_BLOCKED : Int = 1930
+
+///|
+pub const ERROR_LABEL_TOO_LONG : Int = 154
+
+///|
+pub const ERROR_LAST_ADMIN : Int = 1322
+
+///|
+pub const ERROR_LB_WITHOUT_TABSTOPS : Int = 1434
+
+///|
+pub const ERROR_LICENSE_QUOTA_EXCEEDED : Int = 1395
+
+///|
+pub const ERROR_LINUX_SUBSYSTEM_NOT_PRESENT : Int = 414
+
+///|
+pub const ERROR_LINUX_SUBSYSTEM_UPDATE_REQUIRED : Int = 444
+
+///|
+pub const ERROR_LISTBOX_ID_NOT_FOUND : Int = 1416
+
+///|
+pub const ERROR_LM_CROSS_ENCRYPTION_REQUIRED : Int = 1390
+
+///|
+pub const ERROR_LOCAL_POLICY_MODIFICATION_NOT_SUPPORTED : Int = 8653
+
+///|
+pub const ERROR_LOCAL_USER_SESSION_KEY : Int = 1303
+
+///|
+pub const ERROR_LOCKED : Int = 212
+
+///|
+pub const ERROR_LOCK_FAILED : Int = 167
+
+///|
+pub const ERROR_LOCK_VIOLATION : Int = 33
+
+///|
+pub const ERROR_LOGIN_TIME_RESTRICTION : Int = 1239
+
+///|
+pub const ERROR_LOGIN_WKSTA_RESTRICTION : Int = 1240
+
+///|
+pub const ERROR_LOGON_FAILURE : Int = 1326
+
+///|
+pub const ERROR_LOGON_NOT_GRANTED : Int = 1380
+
+///|
+pub const ERROR_LOGON_SERVER_CONFLICT : Int = 568
+
+///|
+pub const ERROR_LOGON_SESSION_COLLISION : Int = 1366
+
+///|
+pub const ERROR_LOGON_SESSION_EXISTS : Int = 1363
+
+///|
+pub const ERROR_LOGON_TYPE_NOT_GRANTED : Int = 1385
+
+///|
+pub const ERROR_LOG_FILE_FULL : Int = 1502
+
+///|
+pub const ERROR_LOG_HARD_ERROR : Int = 718
+
+///|
+pub const ERROR_LONGJUMP : Int = 682
+
+///|
+pub const ERROR_LOST_MODE_LOGON_RESTRICTION : Int = 1939
+
+///|
+pub const ERROR_LOST_WRITEBEHIND_DATA : Int = 596
+
+///|
+pub const ERROR_LOST_WRITEBEHIND_DATA_LOCAL_DISK_ERROR : Int = 790
+
+///|
+pub const ERROR_LOST_WRITEBEHIND_DATA_NETWORK_DISCONNECTED : Int = 788
+
+///|
+pub const ERROR_LOST_WRITEBEHIND_DATA_NETWORK_SERVER_ERROR : Int = 789
+
+///|
+pub const ERROR_LUIDS_EXHAUSTED : Int = 1334
+
+///|
+pub const ERROR_MACHINE_LOCKED : Int = 1271
+
+///|
+pub const ERROR_MAGAZINE_NOT_PRESENT : Int = 1163
+
+///|
+pub const ERROR_MAPPED_ALIGNMENT : Int = 1132
+
+///|
+pub const ERROR_MARKED_TO_DISALLOW_WRITES : Int = 348
+
+///|
+pub const ERROR_MARSHALL_OVERFLOW : Int = 603
+
+///|
+pub const ERROR_MAX_SESSIONS_REACHED : Int = 353
+
+///|
+pub const ERROR_MAX_THRDS_REACHED : Int = 164
+
+///|
+pub const ERROR_MCA_EXCEPTION : Int = 784
+
+///|
+pub const ERROR_MCA_OCCURED : Int = 651
+
+///|
+pub const ERROR_MEDIA_CHANGED : Int = 1110
+
+///|
+pub const ERROR_MEDIA_CHECK : Int = 679
+
+///|
+pub const ERROR_MEMBERS_PRIMARY_GROUP : Int = 1374
+
+///|
+pub const ERROR_MEMBER_IN_ALIAS : Int = 1378
+
+///|
+pub const ERROR_MEMBER_IN_GROUP : Int = 1320
+
+///|
+pub const ERROR_MEMBER_NOT_IN_ALIAS : Int = 1377
+
+///|
+pub const ERROR_MEMBER_NOT_IN_GROUP : Int = 1321
+
+///|
+pub const ERROR_MEMORY_HARDWARE : Int = 779
+
+///|
+pub const ERROR_MENU_ITEM_NOT_FOUND : Int = 1456
+
+///|
+pub const ERROR_MESSAGE_SYNC_ONLY : Int = 1159
+
+///|
+pub const ERROR_META_EXPANSION_TOO_LONG : Int = 208
+
+///|
+pub const ERROR_MISSING_SYSTEMFILE : Int = 573
+
+///|
+pub const ERROR_MOD_NOT_FOUND : Int = 126
+
+///|
+pub const ERROR_MORE_DATA : Int = 234
+
+///|
+pub const ERROR_MORE_WRITES : Int = 1120
+
+///|
+pub const ERROR_MOUNT_POINT_NOT_RESOLVED : Int = 649
+
+///|
+pub const ERROR_MP_PROCESSOR_MISMATCH : Int = 725
+
+///|
+pub const ERROR_MR_MID_NOT_FOUND : Int = 317
+
+///|
+pub const ERROR_MULTIPLE_FAULT_VIOLATION : Int = 640
+
+///|
+pub const ERROR_MUTANT_LIMIT_EXCEEDED : Int = 587
+
+///|
+pub const ERROR_MUTUAL_AUTH_FAILED : Int = 1397
+
+///|
+pub const ERROR_NEGATIVE_SEEK : Int = 131
+
+///|
+pub const ERROR_NESTING_NOT_ALLOWED : Int = 215
+
+///|
+pub const ERROR_NETLOGON_NOT_STARTED : Int = 1792
+
+///|
+pub const ERROR_NETNAME_DELETED : Int = 64
+
+///|
+pub const ERROR_NETWORK_ACCESS_DENIED : Int = 65
+
+///|
+pub const ERROR_NETWORK_ACCESS_DENIED_EDP : Int = 354
+
+///|
+pub const ERROR_NETWORK_BUSY : Int = 54
+
+///|
+pub const ERROR_NETWORK_UNREACHABLE : Int = 1231
+
+///|
+pub const ERROR_NET_OPEN_FAILED : Int = 570
+
+///|
+pub const ERROR_NET_WRITE_FAULT : Int = 88
+
+///|
+pub const ERROR_NOACCESS : Int = 998
+
+///|
+pub const ERROR_NOINTERFACE : Int = 632
+
+///|
+pub const ERROR_NOLOGON_INTERDOMAIN_TRUST_ACCOUNT : Int = 1807
+
+///|
+pub const ERROR_NOLOGON_SERVER_TRUST_ACCOUNT : Int = 1809
+
+///|
+pub const ERROR_NOLOGON_WORKSTATION_TRUST_ACCOUNT : Int = 1808
+
+///|
+pub const ERROR_NONE_MAPPED : Int = 1332
+
+///|
+pub const ERROR_NONPAGED_SYSTEM_RESOURCES : Int = 1451
+
+///|
+pub const ERROR_NON_ACCOUNT_SID : Int = 1257
+
+///|
+pub const ERROR_NON_DOMAIN_SID : Int = 1258
+
+///|
+pub const ERROR_NON_MDICHILD_WINDOW : Int = 1445
+
+///|
+pub const ERROR_NOTHING_TO_TERMINATE : Int = 758
+
+///|
+pub const ERROR_NOTIFICATION_GUID_ALREADY_DEFINED : Int = 309
+
+///|
+pub const ERROR_NOTIFY_CLEANUP : Int = 745
+
+///|
+pub const ERROR_NOTIFY_ENUM_DIR : Int = 1022
+
+///|
+pub const ERROR_NOT_ALLOWED_ON_SYSTEM_FILE : Int = 313
+
+///|
+pub const ERROR_NOT_ALL_ASSIGNED : Int = 1300
+
+///|
+pub const ERROR_NOT_APPCONTAINER : Int = 4250
+
+///|
+pub const ERROR_NOT_AUTHENTICATED : Int = 1244
+
+///|
+pub const ERROR_NOT_A_CLOUD_FILE : Int = 376
+
+///|
+pub const ERROR_NOT_A_CLOUD_SYNC_ROOT : Int = 405
+
+///|
+pub const ERROR_NOT_A_DAX_VOLUME : Int = 420
+
+///|
+pub const ERROR_NOT_A_REPARSE_POINT : Int = 4390
+
+///|
+pub const ERROR_NOT_CAPABLE : Int = 775
+
+///|
+pub const ERROR_NOT_CHILD_WINDOW : Int = 1442
+
+///|
+pub const ERROR_NOT_CONNECTED : Int = 2250
+
+///|
+pub const ERROR_NOT_CONTAINER : Int = 1207
+
+///|
+pub const ERROR_NOT_DAX_MAPPABLE : Int = 421
+
+///|
+pub const ERROR_NOT_DOS_DISK : Int = 26
+
+///|
+pub const ERROR_NOT_ENOUGH_MEMORY : Int = 8
+
+///|
+pub const ERROR_NOT_ENOUGH_QUOTA : Int = 1816
+
+///|
+pub const ERROR_NOT_ENOUGH_SERVER_MEMORY : Int = 1130
+
+///|
+pub const ERROR_NOT_EXPORT_FORMAT : Int = 6008
+
+///|
+pub const ERROR_NOT_FOUND : Int = 1168
+
+///|
+pub const ERROR_NOT_GUI_PROCESS : Int = 1471
+
+///|
+pub const ERROR_NOT_JOINED : Int = 136
+
+///|
+pub const ERROR_NOT_LOCKED : Int = 158
+
+///|
+pub const ERROR_NOT_LOGGED_ON : Int = 1245
+
+///|
+pub const ERROR_NOT_LOGON_PROCESS : Int = 1362
+
+///|
+pub const ERROR_NOT_OWNER : Int = 288
+
+///|
+pub const ERROR_NOT_READY : Int = 21
+
+///|
+pub const ERROR_NOT_READ_FROM_COPY : Int = 337
+
+///|
+pub const ERROR_NOT_REDUNDANT_STORAGE : Int = 333
+
+///|
+pub const ERROR_NOT_REGISTRY_FILE : Int = 1017
+
+///|
+pub const ERROR_NOT_SAFEBOOT_SERVICE : Int = 1084
+
+///|
+pub const ERROR_NOT_SAFE_MODE_DRIVER : Int = 646
+
+///|
+pub const ERROR_NOT_SAME_DEVICE : Int = 17
+
+///|
+pub const ERROR_NOT_SAME_OBJECT : Int = 1656
+
+///|
+pub const ERROR_NOT_SUBSTED : Int = 137
+
+///|
+pub const ERROR_NOT_SUPPORTED : Int = 50
+
+///|
+pub const ERROR_NOT_SUPPORTED_IN_APPCONTAINER : Int = 4252
+
+///|
+pub const ERROR_NOT_SUPPORTED_ON_DAX : Int = 360
+
+///|
+pub const ERROR_NOT_SUPPORTED_ON_SBS : Int = 1254
+
+///|
+pub const ERROR_NOT_SUPPORTED_ON_STANDARD_SERVER : Int = 8584
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_AUDITING : Int = 499
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_BTT : Int = 429
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_BYPASSIO : Int = 493
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_CACHED_HANDLE : Int = 509
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_COMPRESSION : Int = 496
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_DEDUPLICATION : Int = 498
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_ENCRYPTION : Int = 495
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_MONITORING : Int = 503
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_REPLICATION : Int = 497
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_SNAPSHOT : Int = 504
+
+///|
+pub const ERROR_NOT_SUPPORTED_WITH_VIRTUALIZATION : Int = 505
+
+///|
+pub const ERROR_NOT_TINY_STREAM : Int = 598
+
+///|
+pub const ERROR_NO_ACE_CONDITION : Int = 804
+
+///|
+pub const ERROR_NO_ASSOCIATION : Int = 1155
+
+///|
+pub const ERROR_NO_BYPASSIO_DRIVER_SUPPORT : Int = 494
+
+///|
+pub const ERROR_NO_CALLBACK_ACTIVE : Int = 614
+
+///|
+pub const ERROR_NO_DATA : Int = 232
+
+///|
+pub const ERROR_NO_DATA_DETECTED : Int = 1104
+
+///|
+pub const ERROR_NO_EFS : Int = 6004
+
+///|
+pub const ERROR_NO_EVENT_PAIR : Int = 580
+
+///|
+pub const ERROR_NO_GUID_TRANSLATION : Int = 560
+
+///|
+pub const ERROR_NO_IMPERSONATION_TOKEN : Int = 1309
+
+///|
+pub const ERROR_NO_INHERITANCE : Int = 1391
+
+///|
+pub const ERROR_NO_LOGON_SERVERS : Int = 1311
+
+///|
+pub const ERROR_NO_LOG_SPACE : Int = 1019
+
+///|
+pub const ERROR_NO_MATCH : Int = 1169
+
+///|
+pub const ERROR_NO_MEDIA_IN_DRIVE : Int = 1112
+
+///|
+pub const ERROR_NO_MORE_DEVICES : Int = 1248
+
+///|
+pub const ERROR_NO_MORE_FILES : Int = 18
+
+///|
+pub const ERROR_NO_MORE_ITEMS : Int = 259
+
+///|
+pub const ERROR_NO_MORE_MATCHES : Int = 626
+
+///|
+pub const ERROR_NO_MORE_SEARCH_HANDLES : Int = 113
+
+///|
+pub const ERROR_NO_MORE_USER_HANDLES : Int = 1158
+
+///|
+pub const ERROR_NO_NETWORK : Int = 1222
+
+///|
+pub const ERROR_NO_NET_OR_BAD_PATH : Int = 1203
+
+///|
+pub const ERROR_NO_NVRAM_RESOURCES : Int = 1470
+
+///|
+pub const ERROR_NO_PAGEFILE : Int = 578
+
+///|
+pub const ERROR_NO_PHYSICALLY_ALIGNED_FREE_SPACE_FOUND : Int = 408
+
+///|
+pub const ERROR_NO_PROC_SLOTS : Int = 89
+
+///|
+pub const ERROR_NO_PROMOTION_ACTIVE : Int = 8222
+
+///|
+pub const ERROR_NO_QUOTAS_FOR_ACCOUNT : Int = 1302
+
+///|
+pub const ERROR_NO_RANGES_PROCESSED : Int = 312
+
+///|
+pub const ERROR_NO_RECOVERY_POLICY : Int = 6003
+
+///|
+pub const ERROR_NO_RECOVERY_PROGRAM : Int = 1082
+
+///|
+pub const ERROR_NO_SCROLLBARS : Int = 1447
+
+///|
+pub const ERROR_NO_SECRETS : Int = 8620
+
+///|
+pub const ERROR_NO_SECURITY_ON_OBJECT : Int = 1350
+
+///|
+pub const ERROR_NO_SHUTDOWN_IN_PROGRESS : Int = 1116
+
+///|
+pub const ERROR_NO_SIGNAL_SENT : Int = 205
+
+///|
+pub const ERROR_NO_SITENAME : Int = 1919
+
+///|
+pub const ERROR_NO_SITE_SETTINGS_OBJECT : Int = 8619
+
+///|
+pub const ERROR_NO_SPOOL_SPACE : Int = 62
+
+///|
+pub const ERROR_NO_SUCH_ALIAS : Int = 1376
+
+///|
+pub const ERROR_NO_SUCH_DEVICE : Int = 433
+
+///|
+pub const ERROR_NO_SUCH_DOMAIN : Int = 1355
+
+///|
+pub const ERROR_NO_SUCH_GROUP : Int = 1319
+
+///|
+pub const ERROR_NO_SUCH_LOGON_SESSION : Int = 1312
+
+///|
+pub const ERROR_NO_SUCH_MEMBER : Int = 1387
+
+///|
+pub const ERROR_NO_SUCH_PACKAGE : Int = 1364
+
+///|
+pub const ERROR_NO_SUCH_PRIVILEGE : Int = 1313
+
+///|
+pub const ERROR_NO_SUCH_SITE : Int = 1249
+
+///|
+pub const ERROR_NO_SUCH_USER : Int = 1317
+
+///|
+pub const ERROR_NO_SYSTEM_MENU : Int = 1437
+
+///|
+pub const ERROR_NO_SYSTEM_RESOURCES : Int = 1450
+
+///|
+pub const ERROR_NO_TASK_QUEUE : Int = 427
+
+///|
+pub const ERROR_NO_TOKEN : Int = 1008
+
+///|
+pub const ERROR_NO_TRACKING_SERVICE : Int = 1172
+
+///|
+pub const ERROR_NO_TRUST_LSA_SECRET : Int = 1786
+
+///|
+pub const ERROR_NO_TRUST_SAM_ACCOUNT : Int = 1787
+
+///|
+pub const ERROR_NO_UNICODE_TRANSLATION : Int = 1113
+
+///|
+pub const ERROR_NO_USER_KEYS : Int = 6006
+
+///|
+pub const ERROR_NO_USER_SESSION_KEY : Int = 1394
+
+///|
+pub const ERROR_NO_VOLUME_ID : Int = 1173
+
+///|
+pub const ERROR_NO_VOLUME_LABEL : Int = 125
+
+///|
+pub const ERROR_NO_WILDCARD_CHARACTERS : Int = 1417
+
+///|
+pub const ERROR_NO_WORK_DONE : Int = 235
+
+///|
+pub const ERROR_NO_WRITABLE_DC_FOUND : Int = 8621
+
+///|
+pub const ERROR_NO_YIELD_PERFORMED : Int = 721
+
+///|
+pub const ERROR_NTLM_BLOCKED : Int = 1937
+
+///|
+pub const ERROR_NT_CROSS_ENCRYPTION_REQUIRED : Int = 1386
+
+///|
+pub const ERROR_NULL_LM_PASSWORD : Int = 1304
+
+///|
+pub const ERROR_OBJECT_IS_IMMUTABLE : Int = 4449
+
+///|
+pub const ERROR_OBJECT_NAME_EXISTS : Int = 698
+
+///|
+pub const ERROR_OBJECT_NOT_EXTERNALLY_BACKED : Int = 342
+
+///|
+pub const ERROR_OFFLOAD_READ_FILE_NOT_SUPPORTED : Int = 4442
+
+///|
+pub const ERROR_OFFLOAD_READ_FLT_NOT_SUPPORTED : Int = 4440
+
+///|
+pub const ERROR_OFFLOAD_WRITE_FILE_NOT_SUPPORTED : Int = 4443
+
+///|
+pub const ERROR_OFFLOAD_WRITE_FLT_NOT_SUPPORTED : Int = 4441
+
+///|
+pub const ERROR_OFFSET_ALIGNMENT_VIOLATION : Int = 327
+
+///|
+pub const ERROR_OLD_WIN_VERSION : Int = 1150
+
+///|
+pub const ERROR_ONLY_IF_CONNECTED : Int = 1251
+
+///|
+pub const ERROR_OPEN_FAILED : Int = 110
+
+///|
+pub const ERROR_OPEN_FILES : Int = 2401
+
+///|
+pub const ERROR_OPERATION_ABORTED : Int = 995
+
+///|
+pub const ERROR_OPERATION_IN_PROGRESS : Int = 329
+
+///|
+pub const ERROR_OPLOCK_BREAK_IN_PROGRESS : Int = 742
+
+///|
+pub const ERROR_OPLOCK_HANDLE_CLOSED : Int = 803
+
+///|
+pub const ERROR_OPLOCK_NOT_GRANTED : Int = 300
+
+///|
+pub const ERROR_OPLOCK_SWITCHED_TO_NEW_HANDLE : Int = 800
+
+///|
+pub const ERROR_ORPHAN_NAME_EXHAUSTED : Int = 799
+
+///|
+pub const ERROR_OUTOFMEMORY : Int = 14
+
+///|
+pub const ERROR_OUT_OF_PAPER : Int = 28
+
+///|
+pub const ERROR_OUT_OF_STRUCTURES : Int = 84
+
+///|
+pub const ERROR_OVERRIDE_NOCHANGES : Int = 1252
+
+///|
+pub const ERROR_PAGED_SYSTEM_RESOURCES : Int = 1452
+
+///|
+pub const ERROR_PAGEFILE_CREATE_FAILED : Int = 576
+
+///|
+pub const ERROR_PAGEFILE_NOT_SUPPORTED : Int = 491
+
+///|
+pub const ERROR_PAGEFILE_QUOTA : Int = 1454
+
+///|
+pub const ERROR_PAGEFILE_QUOTA_EXCEEDED : Int = 567
+
+///|
+pub const ERROR_PAGE_FAULT_COPY_ON_WRITE : Int = 749
+
+///|
+pub const ERROR_PAGE_FAULT_DEMAND_ZERO : Int = 748
+
+///|
+pub const ERROR_PAGE_FAULT_GUARD_PAGE : Int = 750
+
+///|
+pub const ERROR_PAGE_FAULT_PAGING_FILE : Int = 751
+
+///|
+pub const ERROR_PAGE_FAULT_TRANSITION : Int = 747
+
+///|
+pub const ERROR_PARAMETER_QUOTA_EXCEEDED : Int = 1283
+
+///|
+pub const ERROR_PARTIAL_COPY : Int = 299
+
+///|
+pub const ERROR_PARTITION_FAILURE : Int = 1105
+
+///|
+pub const ERROR_PARTITION_TERMINATING : Int = 1184
+
+///|
+pub const ERROR_PASSWORD_CHANGE_REQUIRED : Int = 1938
+
+///|
+pub const ERROR_PASSWORD_EXPIRED : Int = 1330
+
+///|
+pub const ERROR_PASSWORD_MUST_CHANGE : Int = 1907
+
+///|
+pub const ERROR_PASSWORD_RESTRICTION : Int = 1325
+
+///|
+pub const ERROR_PATCH_MANAGED_ADVERTISED_PRODUCT : Int = 1651
+
+///|
+pub const ERROR_PATCH_NO_SEQUENCE : Int = 1648
+
+///|
+pub const ERROR_PATCH_PACKAGE_INVALID : Int = 1636
+
+///|
+pub const ERROR_PATCH_PACKAGE_OPEN_FAILED : Int = 1635
+
+///|
+pub const ERROR_PATCH_PACKAGE_REJECTED : Int = 1643
+
+///|
+pub const ERROR_PATCH_PACKAGE_UNSUPPORTED : Int = 1637
+
+///|
+pub const ERROR_PATCH_REMOVAL_DISALLOWED : Int = 1649
+
+///|
+pub const ERROR_PATCH_REMOVAL_UNSUPPORTED : Int = 1646
+
+///|
+pub const ERROR_PATCH_TARGET_NOT_FOUND : Int = 1642
+
+///|
+pub const ERROR_PATH_BUSY : Int = 148
+
+///|
+pub const ERROR_PATH_NOT_FOUND : Int = 3
+
+///|
+pub const ERROR_PER_USER_TRUST_QUOTA_EXCEEDED : Int = 1932
+
+///|
+pub const ERROR_PIPE_BUSY : Int = 231
+
+///|
+pub const ERROR_PIPE_CONNECTED : Int = 535
+
+///|
+pub const ERROR_PIPE_LISTENING : Int = 536
+
+///|
+pub const ERROR_PIPE_LOCAL : Int = 229
+
+///|
+pub const ERROR_PIPE_NOT_CONNECTED : Int = 233
+
+///|
+pub const ERROR_PKINIT_FAILURE : Int = 1263
+
+///|
+pub const ERROR_PLUGPLAY_QUERY_VETOED : Int = 683
+
+///|
+pub const ERROR_PNP_BAD_MPS_TABLE : Int = 671
+
+///|
+pub const ERROR_PNP_INVALID_ID : Int = 674
+
+///|
+pub const ERROR_PNP_IRQ_TRANSLATION_FAILED : Int = 673
+
+///|
+pub const ERROR_PNP_QUERY_REMOVE_DEVICE_TIMEOUT : Int = 480
+
+///|
+pub const ERROR_PNP_QUERY_REMOVE_RELATED_DEVICE_TIMEOUT : Int = 481
+
+///|
+pub const ERROR_PNP_QUERY_REMOVE_UNRELATED_DEVICE_TIMEOUT : Int = 482
+
+///|
+pub const ERROR_PNP_REBOOT_REQUIRED : Int = 638
+
+///|
+pub const ERROR_PNP_RESTART_ENUMERATION : Int = 636
+
+///|
+pub const ERROR_PNP_TRANSLATION_FAILED : Int = 672
+
+///|
+pub const ERROR_POINT_NOT_FOUND : Int = 1171
+
+///|
+pub const ERROR_POLICY_OBJECT_NOT_FOUND : Int = 8219
+
+///|
+pub const ERROR_POLICY_ONLY_IN_DS : Int = 8220
+
+///|
+pub const ERROR_POPUP_ALREADY_ACTIVE : Int = 1446
+
+///|
+pub const ERROR_PORT_MESSAGE_TOO_LONG : Int = 546
+
+///|
+pub const ERROR_PORT_NOT_SET : Int = 642
+
+///|
+pub const ERROR_PORT_UNREACHABLE : Int = 1234
+
+///|
+pub const ERROR_POSSIBLE_DEADLOCK : Int = 1131
+
+///|
+pub const ERROR_POTENTIAL_FILE_FOUND : Int = 1180
+
+///|
+pub const ERROR_PREDEFINED_HANDLE : Int = 714
+
+///|
+pub const ERROR_PRIMARY_TRANSPORT_CONNECT_FAILED : Int = 746
+
+///|
+pub const ERROR_PRINTER_ALREADY_EXISTS : Int = 1802
+
+///|
+pub const ERROR_PRINTER_DELETED : Int = 1905
+
+///|
+pub const ERROR_PRINTER_DRIVER_ALREADY_INSTALLED : Int = 1795
+
+///|
+pub const ERROR_PRINTQ_FULL : Int = 61
+
+///|
+pub const ERROR_PRINT_CANCELLED : Int = 63
+
+///|
+pub const ERROR_PRIVATE_DIALOG_INDEX : Int = 1415
+
+///|
+pub const ERROR_PRIVILEGE_NOT_HELD : Int = 1314
+
+///|
+pub const ERROR_PROCESS_ABORTED : Int = 1067
+
+///|
+pub const ERROR_PROCESS_IN_JOB : Int = 760
+
+///|
+pub const ERROR_PROCESS_IS_PROTECTED : Int = 1293
+
+///|
+pub const ERROR_PROCESS_MODE_ALREADY_BACKGROUND : Int = 402
+
+///|
+pub const ERROR_PROCESS_MODE_NOT_BACKGROUND : Int = 403
+
+///|
+pub const ERROR_PROCESS_NOT_IN_JOB : Int = 759
+
+///|
+pub const ERROR_PROC_NOT_FOUND : Int = 127
+
+///|
+pub const ERROR_PRODUCT_UNINSTALLED : Int = 1614
+
+///|
+pub const ERROR_PRODUCT_VERSION : Int = 1638
+
+///|
+pub const ERROR_PROFILING_AT_LIMIT : Int = 553
+
+///|
+pub const ERROR_PROFILING_NOT_STARTED : Int = 550
+
+///|
+pub const ERROR_PROFILING_NOT_STOPPED : Int = 551
+
+///|
+pub const ERROR_PROMOTION_ACTIVE : Int = 8221
+
+///|
+pub const ERROR_PROTOCOL_UNREACHABLE : Int = 1233
+
+///|
+pub const ERROR_PWD_HISTORY_CONFLICT : Int = 617
+
+///|
+pub const ERROR_PWD_TOO_LONG : Int = 657
+
+///|
+pub const ERROR_PWD_TOO_RECENT : Int = 616
+
+///|
+pub const ERROR_PWD_TOO_SHORT : Int = 615
+
+///|
+pub const ERROR_QUOTA_ACTIVITY : Int = 810
+
+///|
+pub const ERROR_QUOTA_LIST_INCONSISTENT : Int = 621
+
+///|
+pub const ERROR_RANGE_LIST_CONFLICT : Int = 627
+
+///|
+pub const ERROR_RANGE_NOT_FOUND : Int = 644
+
+///|
+pub const ERROR_READ_FAULT : Int = 30
+
+///|
+pub const ERROR_RECEIVE_EXPEDITED : Int = 708
+
+///|
+pub const ERROR_RECEIVE_PARTIAL : Int = 707
+
+///|
+pub const ERROR_RECEIVE_PARTIAL_EXPEDITED : Int = 709
+
+///|
+pub const ERROR_RECOVERY_FAILURE : Int = 1279
+
+///|
+pub const ERROR_REDIRECTOR_HAS_OPEN_HANDLES : Int = 1794
+
+///|
+pub const ERROR_REDIR_PAUSED : Int = 72
+
+///|
+pub const ERROR_REGISTRY_CORRUPT : Int = 1015
+
+///|
+pub const ERROR_REGISTRY_HIVE_RECOVERED : Int = 685
+
+///|
+pub const ERROR_REGISTRY_IO_FAILED : Int = 1016
+
+///|
+pub const ERROR_REGISTRY_QUOTA_LIMIT : Int = 613
+
+///|
+pub const ERROR_REGISTRY_RECOVERED : Int = 1014
+
+///|
+pub const ERROR_REG_NAT_CONSUMPTION : Int = 1261
+
+///|
+pub const ERROR_RELOC_CHAIN_XEEDS_SEGLIM : Int = 201
+
+///|
+pub const ERROR_REMOTE_PRINT_CONNECTIONS_BLOCKED : Int = 1936
+
+///|
+pub const ERROR_REMOTE_SESSION_LIMIT_EXCEEDED : Int = 1220
+
+///|
+pub const ERROR_REMOTE_STORAGE_MEDIA_ERROR : Int = 4352
+
+///|
+pub const ERROR_REMOTE_STORAGE_NOT_ACTIVE : Int = 4351
+
+///|
+pub const ERROR_REM_NOT_LIST : Int = 51
+
+///|
+pub const ERROR_REPARSE : Int = 741
+
+///|
+pub const ERROR_REPARSE_ATTRIBUTE_CONFLICT : Int = 4391
+
+///|
+pub const ERROR_REPARSE_OBJECT : Int = 755
+
+///|
+pub const ERROR_REPARSE_POINT_ENCOUNTERED : Int = 4395
+
+///|
+pub const ERROR_REPARSE_TAG_INVALID : Int = 4393
+
+///|
+pub const ERROR_REPARSE_TAG_MISMATCH : Int = 4394
+
+///|
+pub const ERROR_REPLY_MESSAGE_MISMATCH : Int = 595
+
+///|
+pub const ERROR_REQUEST_ABORTED : Int = 1235
+
+///|
+pub const ERROR_REQUEST_OUT_OF_SEQUENCE : Int = 776
+
+///|
+pub const ERROR_REQUEST_PAUSED : Int = 3050
+
+///|
+pub const ERROR_REQUIRES_INTERACTIVE_WINDOWSTATION : Int = 1459
+
+///|
+pub const ERROR_REQ_NOT_ACCEP : Int = 71
+
+///|
+pub const ERROR_RESIDENT_FILE_NOT_SUPPORTED : Int = 334
+
+///|
+pub const ERROR_RESOURCE_CALL_TIMED_OUT : Int = 5910
+
+///|
+pub const ERROR_RESOURCE_DATA_NOT_FOUND : Int = 1812
+
+///|
+pub const ERROR_RESOURCE_LANG_NOT_FOUND : Int = 1815
+
+///|
+pub const ERROR_RESOURCE_NAME_NOT_FOUND : Int = 1814
+
+///|
+pub const ERROR_RESOURCE_REQUIREMENTS_CHANGED : Int = 756
+
+///|
+pub const ERROR_RESOURCE_TYPE_NOT_FOUND : Int = 1813
+
+///|
+pub const ERROR_RESTART_APPLICATION : Int = 1467
+
+///|
+pub const ERROR_RESUME_HIBERNATION : Int = 727
+
+///|
+pub const ERROR_RETRY : Int = 1237
+
+///|
+pub const ERROR_RETURN_ADDRESS_HIJACK_ATTEMPT : Int = 1662
+
+///|
+pub const ERROR_REVISION_MISMATCH : Int = 1306
+
+///|
+pub const ERROR_RING2SEG_MUST_BE_MOVABLE : Int = 200
+
+///|
+pub const ERROR_RING2_STACK_IN_USE : Int = 207
+
+///|
+pub const ERROR_RMODE_APP : Int = 1153
+
+///|
+pub const ERROR_ROWSNOTRELEASED : Int = 772
+
+///|
+pub const ERROR_RUNLEVEL_SWITCH_AGENT_TIMEOUT : Int = 15403
+
+///|
+pub const ERROR_RUNLEVEL_SWITCH_TIMEOUT : Int = 15402
+
+///|
+pub const ERROR_RWRAW_ENCRYPTED_FILE_NOT_ENCRYPTED : Int = 410
+
+///|
+pub const ERROR_RWRAW_ENCRYPTED_INVALID_EDATAINFO_FILEOFFSET : Int = 411
+
+///|
+pub const ERROR_RWRAW_ENCRYPTED_INVALID_EDATAINFO_FILERANGE : Int = 412
+
+///|
+pub const ERROR_RWRAW_ENCRYPTED_INVALID_EDATAINFO_PARAMETER : Int = 413
+
+///|
+pub const ERROR_RXACT_COMMITTED : Int = 744
+
+///|
+pub const ERROR_RXACT_COMMIT_FAILURE : Int = 1370
+
+///|
+pub const ERROR_RXACT_COMMIT_NECESSARY : Int = 678
+
+///|
+pub const ERROR_RXACT_INVALID_STATE : Int = 1369
+
+///|
+pub const ERROR_RXACT_STATE_CREATED : Int = 701
+
+///|
+pub const ERROR_SAME_DRIVE : Int = 143
+
+///|
+pub const ERROR_SAM_INIT_FAILURE : Int = 8541
+
+///|
+pub const ERROR_SCOPE_NOT_FOUND : Int = 318
+
+///|
+pub const ERROR_SCREEN_ALREADY_LOCKED : Int = 1440
+
+///|
+pub const ERROR_SCRUB_DATA_DISABLED : Int = 332
+
+///|
+pub const ERROR_SECRET_TOO_LONG : Int = 1382
+
+///|
+pub const ERROR_SECTION_DIRECT_MAP_ONLY : Int = 819
+
+///|
+pub const ERROR_SECTOR_NOT_FOUND : Int = 27
+
+///|
+pub const ERROR_SECURITY_DENIES_OPERATION : Int = 447
+
+///|
+pub const ERROR_SECURITY_STREAM_IS_INCONSISTENT : Int = 306
+
+///|
+pub const ERROR_SEEK : Int = 25
+
+///|
+pub const ERROR_SEEK_ON_DEVICE : Int = 132
+
+///|
+pub const ERROR_SEGMENT_NOTIFICATION : Int = 702
+
+///|
+pub const ERROR_SEM_IS_SET : Int = 102
+
+///|
+pub const ERROR_SEM_NOT_FOUND : Int = 187
+
+///|
+pub const ERROR_SEM_OWNER_DIED : Int = 105
+
+///|
+pub const ERROR_SEM_TIMEOUT : Int = 121
+
+///|
+pub const ERROR_SEM_USER_LIMIT : Int = 106
+
+///|
+pub const ERROR_SERIAL_NO_DEVICE : Int = 1118
+
+///|
+pub const ERROR_SERVER_DISABLED : Int = 1341
+
+///|
+pub const ERROR_SERVER_HAS_OPEN_HANDLES : Int = 1811
+
+///|
+pub const ERROR_SERVER_NOT_DISABLED : Int = 1342
+
+///|
+pub const ERROR_SERVER_SHUTDOWN_IN_PROGRESS : Int = 1255
+
+///|
+pub const ERROR_SERVER_SID_MISMATCH : Int = 628
+
+///|
+pub const ERROR_SERVER_TRANSPORT_CONFLICT : Int = 816
+
+///|
+pub const ERROR_SERVICE_ALREADY_RUNNING : Int = 1056
+
+///|
+pub const ERROR_SERVICE_CANNOT_ACCEPT_CTRL : Int = 1061
+
+///|
+pub const ERROR_SERVICE_DATABASE_LOCKED : Int = 1055
+
+///|
+pub const ERROR_SERVICE_DEPENDENCY_DELETED : Int = 1075
+
+///|
+pub const ERROR_SERVICE_DEPENDENCY_FAIL : Int = 1068
+
+///|
+pub const ERROR_SERVICE_DISABLED : Int = 1058
+
+///|
+pub const ERROR_SERVICE_DOES_NOT_EXIST : Int = 1060
+
+///|
+pub const ERROR_SERVICE_EXISTS : Int = 1073
+
+///|
+pub const ERROR_SERVICE_LOGON_FAILED : Int = 1069
+
+///|
+pub const ERROR_SERVICE_MARKED_FOR_DELETE : Int = 1072
+
+///|
+pub const ERROR_SERVICE_NEVER_STARTED : Int = 1077
+
+///|
+pub const ERROR_SERVICE_NOTIFICATION : Int = 716
+
+///|
+pub const ERROR_SERVICE_NOTIFY_CLIENT_LAGGING : Int = 1294
+
+///|
+pub const ERROR_SERVICE_NOT_ACTIVE : Int = 1062
+
+///|
+pub const ERROR_SERVICE_NOT_FOUND : Int = 1243
+
+///|
+pub const ERROR_SERVICE_NOT_IN_EXE : Int = 1083
+
+///|
+pub const ERROR_SERVICE_NO_THREAD : Int = 1054
+
+///|
+pub const ERROR_SERVICE_REQUEST_TIMEOUT : Int = 1053
+
+///|
+pub const ERROR_SERVICE_SPECIFIC_ERROR : Int = 1066
+
+///|
+pub const ERROR_SERVICE_START_HANG : Int = 1070
+
+///|
+pub const ERROR_SESSION_CREDENTIAL_CONFLICT : Int = 1219
+
+///|
+pub const ERROR_SESSION_KEY_TOO_SHORT : Int = 501
+
+///|
+pub const ERROR_SETCOUNT_ON_BAD_LB : Int = 1433
+
+///|
+pub const ERROR_SETMARK_DETECTED : Int = 1103
+
+///|
+pub const ERROR_SET_CONTEXT_DENIED : Int = 1660
+
+///|
+pub const ERROR_SET_NOT_FOUND : Int = 1170
+
+///|
+pub const ERROR_SET_POWER_STATE_FAILED : Int = 1141
+
+///|
+pub const ERROR_SET_POWER_STATE_VETOED : Int = 1140
+
+///|
+pub const ERROR_SHARED_POLICY : Int = 8218
+
+///|
+pub const ERROR_SHARING_BUFFER_EXCEEDED : Int = 36
+
+///|
+pub const ERROR_SHARING_PAUSED : Int = 70
+
+///|
+pub const ERROR_SHARING_VIOLATION : Int = 32
+
+///|
+pub const ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME : Int = 305
+
+///|
+pub const ERROR_SHUTDOWN_DISKS_NOT_IN_MAINTENANCE_MODE : Int = 1192
+
+///|
+pub const ERROR_SHUTDOWN_IN_PROGRESS : Int = 1115
+
+///|
+pub const ERROR_SHUTDOWN_IS_SCHEDULED : Int = 1190
+
+///|
+pub const ERROR_SHUTDOWN_USERS_LOGGED_ON : Int = 1191
+
+///|
+pub const ERROR_SIGNAL_PENDING : Int = 162
+
+///|
+pub const ERROR_SIGNAL_REFUSED : Int = 156
+
+///|
+pub const ERROR_SINGLE_INSTANCE_APP : Int = 1152
+
+///|
+pub const ERROR_SMARTCARD_SUBSYSTEM_FAILURE : Int = 1264
+
+///|
+pub const ERROR_SMB1_NOT_AVAILABLE : Int = 384
+
+///|
+pub const ERROR_SMB_GUEST_LOGON_BLOCKED : Int = 1272
+
+///|
+pub const ERROR_SMR_GARBAGE_COLLECTION_REQUIRED : Int = 4445
+
+///|
+pub const ERROR_SOME_NOT_MAPPED : Int = 1301
+
+///|
+pub const ERROR_SOURCE_ELEMENT_EMPTY : Int = 1160
+
+///|
+pub const ERROR_SPARSE_FILE_NOT_SUPPORTED : Int = 490
+
+///|
+pub const ERROR_SPECIAL_ACCOUNT : Int = 1371
+
+///|
+pub const ERROR_SPECIAL_GROUP : Int = 1372
+
+///|
+pub const ERROR_SPECIAL_USER : Int = 1373
+
+///|
+pub const ERROR_SRC_SRV_DLL_LOAD_FAILED : Int = 428
+
+///|
+pub const ERROR_STACK_BUFFER_OVERRUN : Int = 1282
+
+///|
+pub const ERROR_STACK_OVERFLOW : Int = 1001
+
+///|
+pub const ERROR_STACK_OVERFLOW_READ : Int = 599
+
+///|
+pub const ERROR_STOPPED_ON_SYMLINK : Int = 681
+
+///|
+pub const ERROR_STORAGE_LOST_DATA_PERSISTENCE : Int = 368
+
+///|
+pub const ERROR_STORAGE_RESERVE_ALREADY_EXISTS : Int = 418
+
+///|
+pub const ERROR_STORAGE_RESERVE_DOES_NOT_EXIST : Int = 417
+
+///|
+pub const ERROR_STORAGE_RESERVE_ID_INVALID : Int = 416
+
+///|
+pub const ERROR_STORAGE_RESERVE_NOT_EMPTY : Int = 419
+
+///|
+pub const ERROR_STORAGE_STACK_ACCESS_DENIED : Int = 472
+
+///|
+pub const ERROR_STORAGE_TOPOLOGY_ID_MISMATCH : Int = 345
+
+///|
+pub const ERROR_STRICT_CFG_VIOLATION : Int = 1657
+
+///|
+pub const ERROR_SUBST_TO_JOIN : Int = 141
+
+///|
+pub const ERROR_SUBST_TO_SUBST : Int = 139
+
+///|
+pub const ERROR_SUCCESS : Int = 0
+
+///|
+pub const ERROR_SUCCESS_REBOOT_INITIATED : Int = 1641
+
+///|
+pub const ERROR_SWAPERROR : Int = 999
+
+///|
+pub const ERROR_SYMLINK_CLASS_DISABLED : Int = 1463
+
+///|
+pub const ERROR_SYMLINK_NOT_SUPPORTED : Int = 1464
+
+///|
+pub const ERROR_SYNCHRONIZATION_REQUIRED : Int = 569
+
+///|
+pub const ERROR_SYNC_FOREGROUND_REFRESH_REQUIRED : Int = 1274
+
+///|
+pub const ERROR_SYSTEM_HIVE_TOO_LARGE : Int = 653
+
+///|
+pub const ERROR_SYSTEM_IMAGE_BAD_SIGNATURE : Int = 637
+
+///|
+pub const ERROR_SYSTEM_POWERSTATE_COMPLEX_TRANSITION : Int = 783
+
+///|
+pub const ERROR_SYSTEM_POWERSTATE_TRANSITION : Int = 782
+
+///|
+pub const ERROR_SYSTEM_PROCESS_TERMINATED : Int = 591
+
+///|
+pub const ERROR_SYSTEM_SHUTDOWN : Int = 641
+
+///|
+pub const ERROR_SYSTEM_TRACE : Int = 150
+
+///|
+pub const ERROR_THREAD_1_INACTIVE : Int = 210
+
+///|
+pub const ERROR_THREAD_ALREADY_IN_TASK : Int = 1552
+
+///|
+pub const ERROR_THREAD_MODE_ALREADY_BACKGROUND : Int = 400
+
+///|
+pub const ERROR_THREAD_MODE_NOT_BACKGROUND : Int = 401
+
+///|
+pub const ERROR_THREAD_NOT_IN_PROCESS : Int = 566
+
+///|
+pub const ERROR_THREAD_WAS_SUSPENDED : Int = 699
+
+///|
+pub const ERROR_TIMEOUT : Int = 1460
+
+///|
+pub const ERROR_TIMER_NOT_CANCELED : Int = 541
+
+///|
+pub const ERROR_TIMER_RESOLUTION_NOT_SET : Int = 607
+
+///|
+pub const ERROR_TIMER_RESUME_IGNORED : Int = 722
+
+///|
+pub const ERROR_TIME_SENSITIVE_THREAD : Int = 422
+
+///|
+pub const ERROR_TIME_SKEW : Int = 1398
+
+///|
+pub const ERROR_TLW_WITH_WSCHILD : Int = 1406
+
+///|
+pub const ERROR_TOKEN_ALREADY_IN_USE : Int = 1375
+
+///|
+pub const ERROR_TOO_MANY_CMDS : Int = 56
+
+///|
+pub const ERROR_TOO_MANY_CONTEXT_IDS : Int = 1384
+
+///|
+pub const ERROR_TOO_MANY_DESCRIPTORS : Int = 331
+
+///|
+pub const ERROR_TOO_MANY_LINKS : Int = 1142
+
+///|
+pub const ERROR_TOO_MANY_LUIDS_REQUESTED : Int = 1333
+
+///|
+pub const ERROR_TOO_MANY_MODULES : Int = 214
+
+///|
+pub const ERROR_TOO_MANY_MUXWAITERS : Int = 152
+
+///|
+pub const ERROR_TOO_MANY_NAMES : Int = 68
+
+///|
+pub const ERROR_TOO_MANY_OPEN_FILES : Int = 4
+
+///|
+pub const ERROR_TOO_MANY_POSTS : Int = 298
+
+///|
+pub const ERROR_TOO_MANY_SECRETS : Int = 1381
+
+///|
+pub const ERROR_TOO_MANY_SEMAPHORES : Int = 100
+
+///|
+pub const ERROR_TOO_MANY_SEM_REQUESTS : Int = 103
+
+///|
+pub const ERROR_TOO_MANY_SESS : Int = 69
+
+///|
+pub const ERROR_TOO_MANY_SIDS : Int = 1389
+
+///|
+pub const ERROR_TOO_MANY_TCBS : Int = 155
+
+///|
+pub const ERROR_TOO_MANY_THREADS : Int = 565
+
+///|
+pub const ERROR_TRANSLATION_COMPLETE : Int = 757
+
+///|
+pub const ERROR_TRUSTED_DOMAIN_FAILURE : Int = 1788
+
+///|
+pub const ERROR_TRUSTED_RELATIONSHIP_FAILURE : Int = 1789
+
+///|
+pub const ERROR_TRUST_FAILURE : Int = 1790
+
+///|
+pub const ERROR_UNABLE_TO_LOCK_MEDIA : Int = 1108
+
+///|
+pub const ERROR_UNABLE_TO_MOVE_REPLACEMENT : Int = 1176
+
+///|
+pub const ERROR_UNABLE_TO_MOVE_REPLACEMENT_2 : Int = 1177
+
+///|
+pub const ERROR_UNABLE_TO_REMOVE_REPLACED : Int = 1175
+
+///|
+pub const ERROR_UNABLE_TO_UNLOAD_MEDIA : Int = 1109
+
+///|
+pub const ERROR_UNDEFINED_CHARACTER : Int = 583
+
+///|
+pub const ERROR_UNDEFINED_SCOPE : Int = 319
+
+///|
+pub const ERROR_UNEXPECTED_MM_CREATE_ERR : Int = 556
+
+///|
+pub const ERROR_UNEXPECTED_MM_EXTEND_ERR : Int = 558
+
+///|
+pub const ERROR_UNEXPECTED_MM_MAP_ERROR : Int = 557
+
+///|
+pub const ERROR_UNEXPECTED_NTCACHEMANAGER_ERROR : Int = 443
+
+///|
+pub const ERROR_UNEXP_NET_ERR : Int = 59
+
+///|
+pub const ERROR_UNHANDLED_EXCEPTION : Int = 574
+
+///|
+pub const ERROR_UNIDENTIFIED_ERROR : Int = 1287
+
+///|
+pub const ERROR_UNKNOWN_COMPONENT : Int = 1607
+
+///|
+pub const ERROR_UNKNOWN_FEATURE : Int = 1606
+
+///|
+pub const ERROR_UNKNOWN_PATCH : Int = 1647
+
+///|
+pub const ERROR_UNKNOWN_PORT : Int = 1796
+
+///|
+pub const ERROR_UNKNOWN_PRINTER_DRIVER : Int = 1797
+
+///|
+pub const ERROR_UNKNOWN_PRINTPROCESSOR : Int = 1798
+
+///|
+pub const ERROR_UNKNOWN_PRODUCT : Int = 1605
+
+///|
+pub const ERROR_UNKNOWN_PROPERTY : Int = 1608
+
+///|
+pub const ERROR_UNKNOWN_REVISION : Int = 1305
+
+///|
+pub const ERROR_UNRECOGNIZED_MEDIA : Int = 1785
+
+///|
+pub const ERROR_UNRECOGNIZED_VOLUME : Int = 1005
+
+///|
+pub const ERROR_UNSATISFIED_DEPENDENCIES : Int = 441
+
+///|
+pub const ERROR_UNSUPPORTED_COMPRESSION : Int = 618
+
+///|
+pub const ERROR_UNSUPPORTED_TYPE : Int = 1630
+
+///|
+pub const ERROR_UNTRUSTED_MOUNT_POINT : Int = 448
+
+///|
+pub const ERROR_UNWIND : Int = 542
+
+///|
+pub const ERROR_UNWIND_CONSOLIDATE : Int = 684
+
+///|
+pub const ERROR_USER_APC : Int = 737
+
+///|
+pub const ERROR_USER_DELETE_TRUST_QUOTA_EXCEEDED : Int = 1934
+
+///|
+pub const ERROR_USER_EXISTS : Int = 1316
+
+///|
+pub const ERROR_USER_MAPPED_FILE : Int = 1224
+
+///|
+pub const ERROR_USER_PROFILE_LOAD : Int = 500
+
+///|
+pub const ERROR_VALIDATE_CONTINUE : Int = 625
+
+///|
+pub const ERROR_VC_DISCONNECTED : Int = 240
+
+///|
+pub const ERROR_VDM_DISALLOWED : Int = 1286
+
+///|
+pub const ERROR_VDM_HARD_ERROR : Int = 593
+
+///|
+pub const ERROR_VERIFIER_STOP : Int = 537
+
+///|
+pub const ERROR_VERSION_PARSE_ERROR : Int = 777
+
+///|
+pub const ERROR_VIRUS_DELETED : Int = 226
+
+///|
+pub const ERROR_VIRUS_INFECTED : Int = 225
+
+///|
+pub const ERROR_VOLSNAP_HIBERNATE_READY : Int = 761
+
+///|
+pub const ERROR_VOLSNAP_PREPARE_HIBERNATE : Int = 655
+
+///|
+pub const ERROR_VOLUME_MOUNTED : Int = 743
+
+///|
+pub const ERROR_VOLUME_NOT_CLUSTER_ALIGNED : Int = 407
+
+///|
+pub const ERROR_VOLUME_NOT_SIS_ENABLED : Int = 4500
+
+///|
+pub const ERROR_VOLUME_NOT_SUPPORTED : Int = 492
+
+///|
+pub const ERROR_VOLUME_NOT_SUPPORT_EFS : Int = 6014
+
+///|
+pub const ERROR_VOLUME_WRITE_ACCESS_DENIED : Int = 508
+
+///|
+pub const ERROR_WAIT_1 : Int = 731
+
+///|
+pub const ERROR_WAIT_2 : Int = 732
+
+///|
+pub const ERROR_WAIT_3 : Int = 733
+
+///|
+pub const ERROR_WAIT_63 : Int = 734
+
+///|
+pub const ERROR_WAIT_FOR_OPLOCK : Int = 765
+
+///|
+pub const ERROR_WAIT_NO_CHILDREN : Int = 128
+
+///|
+pub const ERROR_WAKE_SYSTEM : Int = 730
+
+///|
+pub const ERROR_WAKE_SYSTEM_DEBUGGER : Int = 675
+
+///|
+pub const ERROR_WAS_LOCKED : Int = 717
+
+///|
+pub const ERROR_WAS_UNLOCKED : Int = 715
+
+///|
+pub const ERROR_WEAK_WHFBKEY_BLOCKED : Int = 8651
+
+///|
+pub const ERROR_WINDOW_NOT_COMBOBOX : Int = 1423
+
+///|
+pub const ERROR_WINDOW_NOT_DIALOG : Int = 1420
+
+///|
+pub const ERROR_WINDOW_OF_OTHER_THREAD : Int = 1408
+
+///|
+pub const ERROR_WIP_ENCRYPTION_FAILED : Int = 6023
+
+///|
+pub const ERROR_WOF_FILE_RESOURCE_TABLE_CORRUPT : Int = 4448
+
+///|
+pub const ERROR_WOF_WIM_HEADER_CORRUPT : Int = 4446
+
+///|
+pub const ERROR_WOF_WIM_RESOURCE_TABLE_CORRUPT : Int = 4447
+
+///|
+pub const ERROR_WORKING_SET_QUOTA : Int = 1453
+
+///|
+pub const ERROR_WOW_ASSERTION : Int = 670
+
+///|
+pub const ERROR_WRITE_FAULT : Int = 29
+
+///|
+pub const ERROR_WRITE_PROTECT : Int = 19
+
+///|
+pub const ERROR_WRONG_COMPARTMENT : Int = 1468
+
+///|
+pub const ERROR_WRONG_DISK : Int = 34
+
+///|
+pub const ERROR_WRONG_EFS : Int = 6005
+
+///|
+pub const ERROR_WRONG_PASSWORD : Int = 1323
+
+///|
+pub const ERROR_WRONG_TARGET_NAME : Int = 1396
+
+///|
+pub const ERROR_WX86_ERROR : Int = 540
+
+///|
+pub const ERROR_WX86_WARNING : Int = 539
+
+///|
+pub const ERROR_XMLDSIG_ERROR : Int = 1466
+
+///|
+pub const ERROR_XML_PARSE_ERROR : Int = 1465
+
+///|
+pub const NO_ERROR : Int = 0
+
+///|
+pub const WSABASEERR : Int = 10000
+
+///|
+pub const WSAEACCES : Int = 10013
+
+///|
+pub const WSAEADDRINUSE : Int = 10048
+
+///|
+pub const WSAEADDRNOTAVAIL : Int = 10049
+
+///|
+pub const WSAEAFNOSUPPORT : Int = 10047
+
+///|
+pub const WSAEALREADY : Int = 10037
+
+///|
+pub const WSAEBADF : Int = 10009
+
+///|
+pub const WSAECANCELLED : Int = 10103
+
+///|
+pub const WSAECONNABORTED : Int = 10053
+
+///|
+pub const WSAECONNREFUSED : Int = 10061
+
+///|
+pub const WSAECONNRESET : Int = 10054
+
+///|
+pub const WSAEDESTADDRREQ : Int = 10039
+
+///|
+pub const WSAEDISCON : Int = 10101
+
+///|
+pub const WSAEDQUOT : Int = 10069
+
+///|
+pub const WSAEFAULT : Int = 10014
+
+///|
+pub const WSAEHOSTDOWN : Int = 10064
+
+///|
+pub const WSAEHOSTUNREACH : Int = 10065
+
+///|
+pub const WSAEINPROGRESS : Int = 10036
+
+///|
+pub const WSAEINTR : Int = 10004
+
+///|
+pub const WSAEINVAL : Int = 10022
+
+///|
+pub const WSAEINVALIDPROCTABLE : Int = 10104
+
+///|
+pub const WSAEINVALIDPROVIDER : Int = 10105
+
+///|
+pub const WSAEISCONN : Int = 10056
+
+///|
+pub const WSAELOOP : Int = 10062
+
+///|
+pub const WSAEMFILE : Int = 10024
+
+///|
+pub const WSAEMSGSIZE : Int = 10040
+
+///|
+pub const WSAENAMETOOLONG : Int = 10063
+
+///|
+pub const WSAENETDOWN : Int = 10050
+
+///|
+pub const WSAENETRESET : Int = 10052
+
+///|
+pub const WSAENETUNREACH : Int = 10051
+
+///|
+pub const WSAENOBUFS : Int = 10055
+
+///|
+pub const WSAENOMORE : Int = 10102
+
+///|
+pub const WSAENOPROTOOPT : Int = 10042
+
+///|
+pub const WSAENOTCONN : Int = 10057
+
+///|
+pub const WSAENOTEMPTY : Int = 10066
+
+///|
+pub const WSAENOTSOCK : Int = 10038
+
+///|
+pub const WSAEOPNOTSUPP : Int = 10045
+
+///|
+pub const WSAEPFNOSUPPORT : Int = 10046
+
+///|
+pub const WSAEPROCLIM : Int = 10067
+
+///|
+pub const WSAEPROTONOSUPPORT : Int = 10043
+
+///|
+pub const WSAEPROTOTYPE : Int = 10041
+
+///|
+pub const WSAEPROVIDERFAILEDINIT : Int = 10106
+
+///|
+pub const WSAEREFUSED : Int = 10112
+
+///|
+pub const WSAEREMOTE : Int = 10071
+
+///|
+pub const WSAESHUTDOWN : Int = 10058
+
+///|
+pub const WSAESOCKTNOSUPPORT : Int = 10044
+
+///|
+pub const WSAESTALE : Int = 10070
+
+///|
+pub const WSAETIMEDOUT : Int = 10060
+
+///|
+pub const WSAETOOMANYREFS : Int = 10059
+
+///|
+pub const WSAEUSERS : Int = 10068
+
+///|
+pub const WSAEWOULDBLOCK : Int = 10035
+
+///|
+pub const WSAHOST_NOT_FOUND : Int = 11001
+
+///|
+pub const WSANOTINITIALISED : Int = 10093
+
+///|
+pub const WSANO_DATA : Int = 11004
+
+///|
+pub const WSANO_RECOVERY : Int = 11003
+
+///|
+pub const WSASERVICE_NOT_FOUND : Int = 10108
+
+///|
+pub const WSASYSCALLFAILURE : Int = 10107
+
+///|
+pub const WSASYSNOTREADY : Int = 10091
+
+///|
+pub const WSATRY_AGAIN : Int = 11002
+
+///|
+pub const WSATYPE_NOT_FOUND : Int = 10109
+
+///|
+pub const WSAVERNOTSUPPORTED : Int = 10092
+
+///|
+pub const WSA_E_CANCELLED : Int = 10111
+
+///|
+pub const WSA_E_NO_MORE : Int = 10110
+
+///|
+pub const WSA_INVALID_HANDLE : Int = 6
+
+///|
+pub const WSA_INVALID_PARAMETER : Int = 87
+
+///|
+pub const WSA_IO_INCOMPLETE : Int = 996
+
+///|
+pub const WSA_IO_PENDING : Int = 997
+
+///|
+pub const WSA_IPSEC_NAME_POLICY_ERROR : Int = 11033
+
+///|
+pub const WSA_NOT_ENOUGH_MEMORY : Int = 8
+
+///|
+pub const WSA_OPERATION_ABORTED : Int = 995
+
+///|
+pub const WSA_QOS_ADMISSION_FAILURE : Int = 11010
+
+///|
+pub const WSA_QOS_BAD_OBJECT : Int = 11013
+
+///|
+pub const WSA_QOS_BAD_STYLE : Int = 11012
+
+///|
+pub const WSA_QOS_EFILTERCOUNT : Int = 11021
+
+///|
+pub const WSA_QOS_EFILTERSTYLE : Int = 11019
+
+///|
+pub const WSA_QOS_EFILTERTYPE : Int = 11020
+
+///|
+pub const WSA_QOS_EFLOWCOUNT : Int = 11023
+
+///|
+pub const WSA_QOS_EFLOWDESC : Int = 11026
+
+///|
+pub const WSA_QOS_EFLOWSPEC : Int = 11017
+
+///|
+pub const WSA_QOS_EOBJLENGTH : Int = 11022
+
+///|
+pub const WSA_QOS_EPOLICYOBJ : Int = 11025
+
+///|
+pub const WSA_QOS_EPROVSPECBUF : Int = 11018
+
+///|
+pub const WSA_QOS_EPSFILTERSPEC : Int = 11028
+
+///|
+pub const WSA_QOS_EPSFLOWSPEC : Int = 11027
+
+///|
+pub const WSA_QOS_ESDMODEOBJ : Int = 11029
+
+///|
+pub const WSA_QOS_ESERVICETYPE : Int = 11016
+
+///|
+pub const WSA_QOS_ESHAPERATEOBJ : Int = 11030
+
+///|
+pub const WSA_QOS_EUNKOWNPSOBJ : Int = 11024
+
+///|
+pub const WSA_QOS_GENERIC_ERROR : Int = 11015
+
+///|
+pub const WSA_QOS_NO_RECEIVERS : Int = 11008
+
+///|
+pub const WSA_QOS_NO_SENDERS : Int = 11007
+
+///|
+pub const WSA_QOS_POLICY_FAILURE : Int = 11011
+
+///|
+pub const WSA_QOS_RECEIVERS : Int = 11005
+
+///|
+pub const WSA_QOS_REQUEST_CONFIRMED : Int = 11009
+
+///|
+pub const WSA_QOS_RESERVED_PETYPE : Int = 11031
+
+///|
+pub const WSA_QOS_SENDERS : Int = 11006
+
+///|
+pub const WSA_QOS_TRAFFIC_CTRL_ERROR : Int = 11014
+
+///|
+pub const WSA_SECURE_HOST_NOT_FOUND : Int = 11032
+
+///|
+pub const WSA_WAIT_EVENT_0 : Int = 0
+
+///|
+pub const WSA_WAIT_IO_COMPLETION : Int = 192
